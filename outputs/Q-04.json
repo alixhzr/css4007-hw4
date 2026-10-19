@@ -1,0 +1,99 @@
+{
+  "question_id": "Q-04",
+  "question": "Which district has more pupils per school in 2025/26, Ashgrove or Millbrook, and by how many pupils per school?",
+  "s1": {
+    "answer": "Ashgrove has 8,837 pupils across 24 schools: 368.21 pupils per school. Millbrook has 5,562 pupils across 15 schools: 370.80 pupils per school.\n\nMillbrook has more, by 2.59 pupils per school.\n\nANSWER: Millbrook | 2.59",
+    "usage": {
+      "completion_tokens": 69,
+      "prompt_tokens": 2133,
+      "total_tokens": 2202,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2130,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 1.8026320934295654
+  },
+  "s2": {
+    "answers": [
+      "Ashgrove: \\(8,837 \\div 24 = 368.21\\) pupils per school.\n\nMillbrook: \\(5,562 \\div 15 = 370.80\\) pupils per school.\n\nDifference: \\(370.80 - 368.21 = 2.59\\) pupils per school.\n\nANSWER: Millbrook | 2.59 pupils per school",
+      "Ashgrove: \\(8{,}837 \\div 24 = 368.21\\) pupils per school.\n\nMillbrook: \\(5{,}562 \\div 15 = 370.80\\) pupils per school.\n\nDifference: \\(370.80 - 368.21 = 2.59\\) pupils per school.\n\nANSWER: Millbrook | 2.59 pupils per school",
+      "Ashgrove: \\(8{,}837 \\div 24 = 368.21\\) pupils per school.\n\nMillbrook: \\(5{,}562 \\div 15 = 370.80\\) pupils per school.\n\nMillbrook has more pupils per school by \\(370.80 - 368.21 = 2.59\\).\n\nANSWER: Millbrook | 2.59 pupils per school",
+      "Ashgrove: \\(8,837 \\div 24 = 368.21\\) pupils per school.\n\nMillbrook: \\(5,562 \\div 15 = 370.80\\) pupils per school.\n\nDifference: \\(370.80 - 368.21 = 2.59\\) pupils per school.\n\nANSWER: Millbrook | 2.59 pupils per school",
+      "Ashgrove: \\(8,837 \\div 24 = 368.21\\) pupils per school.\n\nMillbrook: \\(5,562 \\div 15 = 370.80\\) pupils per school.\n\nDifference: \\(370.80 - 368.21 = 2.59\\) pupils per school.\n\nANSWER: Millbrook | 2.59 pupils per school"
+    ],
+    "chosen": "Ashgrove: \\(8,837 \\div 24 = 368.21\\) pupils per school.\n\nMillbrook: \\(5,562 \\div 15 = 370.80\\) pupils per school.\n\nDifference: \\(370.80 - 368.21 = 2.59\\) pupils per school.\n\nANSWER: Millbrook | 2.59 pupils per school",
+    "usage": {
+      "prompt_tokens": 10690,
+      "completion_tokens": 420,
+      "total_tokens": 11110
+    },
+    "time": 12.27702283859253
+  },
+  "s3": {
+    "answer": "I couldn’t find the pupil and school figures for Ashgrove or Millbrook, so I can’t calculate which district has more pupils per school.\n\nANSWER: Unable to determine | unavailable",
+    "usage": {
+      "prompt_tokens": 1023,
+      "completion_tokens": 192,
+      "total_tokens": 1215
+    },
+    "time": 6.082543849945068,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "2025/26 Ashgrove pupils schools number pupils number of schools"
+        },
+        "result": "{\"error\": \"No match found for: '2025/26 Ashgrove pupils schools number pupils number of schools'\"}",
+        "duration": 0.001093149185180664
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "2025/26 Millbrook pupils schools number pupils number of schools"
+        },
+        "result": "{\"error\": \"No match found for: '2025/26 Millbrook pupils schools number pupils number of schools'\"}",
+        "duration": 0.0003821849822998047
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ashgrove district profile 2025/26"
+        },
+        "result": "{\"error\": \"No match found for: 'Ashgrove district profile 2025/26'\"}",
+        "duration": 0.0007889270782470703
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Millbrook district profile 2025/26"
+        },
+        "result": "{\"error\": \"No match found for: 'Millbrook district profile 2025/26'\"}",
+        "duration": 0.00028705596923828125
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ashgrove Millbrook pupils per school"
+        },
+        "result": "{\"error\": \"No match found for: 'Ashgrove Millbrook pupils per school'\"}",
+        "duration": 0.00022721290588378906
+      }
+    ]
+  }
+}

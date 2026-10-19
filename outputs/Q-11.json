@@ -1,0 +1,90 @@
+{
+  "question_id": "Q-11",
+  "question": "Of Redfen, Ashgrove and Millbrook, which district has the fewest pupils per school in 2025/26, and how many pupils per school separate the highest of the three from the lowest?",
+  "s1": {
+    "answer": "Pupils per school:\n\n- Redfen: 3,147 ÷ 10 = 314.7\n- Ashgrove: 8,837 ÷ 24 ≈ 368.2\n- Millbrook: 5,562 ÷ 15 = 370.8\n\nRedfen has the fewest pupils per school. The difference between the highest (Millbrook) and lowest (Redfen) is 370.8 − 314.7 = **56.1 pupils per school**.\n\nANSWER: Redfen | 56.1",
+    "usage": {
+      "completion_tokens": 119,
+      "prompt_tokens": 2147,
+      "total_tokens": 2266,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2144,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 2.137462854385376
+  },
+  "s2": {
+    "answers": [
+      "Calculate pupils per school:\n\n- **Redfen:** 3,147 ÷ 10 = **314.7**\n- **Ashgrove:** 8,837 ÷ 24 ≈ **368.2**\n- **Millbrook:** 5,562 ÷ 15 = **370.8**\n\nRedfen has the fewest pupils per school. The difference between the highest (Millbrook) and lowest (Redfen) is:\n\n370.8 − 314.7 = **56.1 pupils per school**\n\nANSWER: Redfen | 56.1",
+      "Calculate pupils per school:\n\n- **Redfen:** 3,147 ÷ 10 = **314.7**\n- **Ashgrove:** 8,837 ÷ 24 ≈ **368.2**\n- **Millbrook:** 5,562 ÷ 15 = **370.8**\n\nRedfen has the fewest pupils per school. The difference between the highest (Millbrook) and lowest (Redfen) is:\n\n370.8 − 314.7 = **56.1 pupils per school**\n\nANSWER: Redfen | 56.1",
+      "Calculate pupils per school:\n\n- **Redfen:** 3,147 ÷ 10 = **314.7 pupils per school**\n- **Ashgrove:** 8,837 ÷ 24 ≈ **368.2 pupils per school**\n- **Millbrook:** 5,562 ÷ 15 = **370.8 pupils per school**\n\nRedfen has the fewest pupils per school. The difference between the highest (Millbrook) and lowest (Redfen) is:\n\n370.8 − 314.7 = **56.1 pupils per school**\n\nANSWER: Redfen | 56.1 pupils per school",
+      "Calculate pupils per school:\n\n- **Redfen:** 3,147 ÷ 10 = **314.7**\n- **Ashgrove:** 8,837 ÷ 24 ≈ **368.2**\n- **Millbrook:** 5,562 ÷ 15 = **370.8**\n\nRedfen has the fewest pupils per school. The difference between the highest (Millbrook) and lowest (Redfen) is:\n\n370.8 − 314.7 = **56.1 pupils per school**\n\nANSWER: Redfen | 56.1",
+      "Pupils per school:\n\n- **Redfen:** 3,147 ÷ 10 = **314.7**\n- **Ashgrove:** 8,837 ÷ 24 ≈ **368.2**\n- **Millbrook:** 5,562 ÷ 15 = **370.8**\n\nRedfen has the fewest pupils per school. The difference between the highest (Millbrook) and lowest (Redfen) is:\n\n370.8 − 314.7 = **56.1 pupils per school**\n\nANSWER: Redfen | 56.1"
+    ],
+    "chosen": "Calculate pupils per school:\n\n- **Redfen:** 3,147 ÷ 10 = **314.7**\n- **Ashgrove:** 8,837 ÷ 24 ≈ **368.2**\n- **Millbrook:** 5,562 ÷ 15 = **370.8**\n\nRedfen has the fewest pupils per school. The difference between the highest (Millbrook) and lowest (Redfen) is:\n\n370.8 − 314.7 = **56.1 pupils per school**\n\nANSWER: Redfen | 56.1",
+    "usage": {
+      "prompt_tokens": 10760,
+      "completion_tokens": 613,
+      "total_tokens": 11373
+    },
+    "time": 10.705993890762329
+  },
+  "s3": {
+    "answer": "I couldn’t find data for Redfen, Ashgrove, or Millbrook in the available sources, so I can’t determine the lowest pupils-per-school district or the difference.\n\nANSWER: unavailable | unavailable",
+    "usage": {
+      "prompt_tokens": 1056,
+      "completion_tokens": 161,
+      "total_tokens": 1217
+    },
+    "time": 7.429692983627319,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Redfen district 2025/26 pupils schools pupils per school"
+        },
+        "result": "{\"error\": \"No match found for: 'Redfen district 2025/26 pupils schools pupils per school'\"}",
+        "duration": 0.0014431476593017578
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ashgrove district 2025/26 pupils schools pupils per school"
+        },
+        "result": "{\"error\": \"No match found for: 'Ashgrove district 2025/26 pupils schools pupils per school'\"}",
+        "duration": 0.00027298927307128906
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Millbrook district 2025/26 pupils schools pupils per school"
+        },
+        "result": "{\"error\": \"No match found for: 'Millbrook district 2025/26 pupils schools pupils per school'\"}",
+        "duration": 0.0001819133758544922
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Redfen Ashgrove Millbrook"
+        },
+        "result": "{\"error\": \"No match found for: 'Redfen Ashgrove Millbrook'\"}",
+        "duration": 0.0008127689361572266
+      }
+    ]
+  }
+}

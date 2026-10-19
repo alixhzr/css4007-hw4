@@ -1,0 +1,81 @@
+{
+  "question_id": "Q-02",
+  "question": "Between the 2020 and 2025 censuses, which district grew faster in percentage terms, Tarnvale or Harrowfield, and by how many percentage points?",
+  "s1": {
+    "answer": "Tarnvale grew by \\( \\frac{71,388-67,214}{67,214}\\times100 \\approx 6.21\\% \\).\n\nHarrowfield grew by \\( \\frac{90,212-83,609}{83,609}\\times100 \\approx 7.90\\% \\).\n\nHarrowfield therefore grew faster by approximately **1.69 percentage points**.\n\nANSWER: Harrowfield | 1.69 percentage points",
+    "usage": {
+      "completion_tokens": 97,
+      "prompt_tokens": 2138,
+      "total_tokens": 2235,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2135,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 2.1270601749420166
+  },
+  "s2": {
+    "answers": [
+      "Tarnvale’s population increased by:\n\n\\[\n\\frac{71,388-67,214}{67,214}\\times 100 \\approx 6.21\\%\n\\]\n\nHarrowfield’s population increased by:\n\n\\[\n\\frac{90,212-83,609}{83,609}\\times 100 \\approx 7.90\\%\n\\]\n\nThe difference is:\n\n\\[\n7.90\\%-6.21\\% \\approx 1.69\n\\]\n\nHarrowfield grew faster by approximately 1.69 percentage points.\n\nANSWER: Harrowfield | 1.69 percentage points",
+      "Tarnvale’s population growth:\n\n\\[\n\\frac{71{,}388-67{,}214}{67{,}214}\\times 100\n= 6.21\\%\n\\]\n\nHarrowfield’s population growth:\n\n\\[\n\\frac{90{,}212-83{,}609}{83{,}609}\\times 100\n= 7.90\\%\n\\]\n\nHarrowfield therefore grew faster. The difference was:\n\n\\[\n7.90\\%-6.21\\%=1.69\n\\]\n\nANSWER: Harrowfield | 1.69 percentage points",
+      "Tarnvale’s population growth:\n\n\\[\n\\frac{71,388-67,214}{67,214}\\times100 \\approx 6.21\\%\n\\]\n\nHarrowfield’s population growth:\n\n\\[\n\\frac{90,212-83,609}{83,609}\\times100 \\approx 7.90\\%\n\\]\n\nHarrowfield therefore grew faster. The difference was:\n\n\\[\n7.90\\%-6.21\\% \\approx 1.69\n\\]\n\nANSWER: Harrowfield | 1.69 percentage points",
+      "Tarnvale’s population increased from 67,214 to 71,388:\n\n- Increase: 4,174\n- Percentage growth: \\(4,174 \\div 67,214 \\times 100 \\approx 6.21\\%\\)\n\nHarrowfield’s population increased from 83,609 to 90,212:\n\n- Increase: 6,603\n- Percentage growth: \\(6,603 \\div 83,609 \\times 100 \\approx 7.90\\%\\)\n\nHarrowfield therefore grew faster by approximately \\(7.90 - 6.21 = 1.69\\) percentage points.\n\nANSWER: Harrowfield | 1.69 percentage points",
+      "Tarnvale’s population growth:\n\n\\[\n\\frac{71{,}388-67{,}214}{67{,}214}\\times100 \\approx 6.21\\%\n\\]\n\nHarrowfield’s population growth:\n\n\\[\n\\frac{90{,}212-83{,}609}{83{,}609}\\times100 \\approx 7.90\\%\n\\]\n\nHarrowfield grew faster. The difference was:\n\n\\[\n7.90\\%-6.21\\% \\approx 1.69\n\\]\n\nANSWER: Harrowfield | 1.69 percentage points"
+    ],
+    "chosen": "Tarnvale’s population growth:\n\n\\[\n\\frac{71{,}388-67{,}214}{67{,}214}\\times 100\n= 6.21\\%\n\\]\n\nHarrowfield’s population growth:\n\n\\[\n\\frac{90{,}212-83{,}609}{83{,}609}\\times 100\n= 7.90\\%\n\\]\n\nHarrowfield therefore grew faster. The difference was:\n\n\\[\n7.90\\%-6.21\\%=1.69\n\\]\n\nANSWER: Harrowfield | 1.69 percentage points",
+    "usage": {
+      "prompt_tokens": 10715,
+      "completion_tokens": 655,
+      "total_tokens": 11370
+    },
+    "time": 13.415318965911865
+  },
+  "s3": {
+    "answer": "I couldn’t find reliable census figures for Tarnvale or Harrowfield, so I can’t calculate which district grew faster or the percentage-point difference.\n\nANSWER: unknown | unknown",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 133,
+      "total_tokens": 723
+    },
+    "time": 4.054713010787964,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "2020 and 2025 census populations Tarnvale Harrowfield district"
+        },
+        "result": "{\"error\": \"No match found for: '2020 and 2025 census populations Tarnvale Harrowfield district'\"}",
+        "duration": 0.0009899139404296875
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Tarnvale district profile census 2020 2025 population"
+        },
+        "result": "{\"error\": \"No match found for: 'Tarnvale district profile census 2020 2025 population'\"}",
+        "duration": 0.0003368854522705078
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Harrowfield district profile census 2020 2025 population"
+        },
+        "result": "{\"error\": \"No match found for: 'Harrowfield district profile census 2020 2025 population'\"}",
+        "duration": 0.0002791881561279297
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "question_id": "Q-18",
+  "question": "If Millbrook's population grows by the same percentage from 2025 to 2030 as it did from 2020 to 2025, will it exceed 40,000 residents in 2030? Give the projected 2030 population.",
+  "s1": {
+    "answer": "Millbrook’s population grew from 34,590 in 2020 to 37,203 in 2025, an increase of:\n\n\\[\n\\frac{37,203-34,590}{34,590}\\times 100 \\approx 7.5542\\%\n\\]\n\nApplying the same percentage growth to 2030:\n\n\\[\n37,203 \\times \\frac{37,203}{34,590} \\approx 40,014.6\n\\]\n\nRounded to the nearest resident, the projected population is **40,015**, so it would exceed 40,000.\n\nANSWER: yes | 40,015",
+    "usage": {
+      "completion_tokens": 133,
+      "prompt_tokens": 2155,
+      "total_tokens": 2288,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2152,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 2.258272886276245
+  },
+  "s2": {
+    "answers": [
+      "Millbrook’s population increased from 34,590 in 2020 to 37,203 in 2025.\n\nPercentage growth:\n\n\\[\n\\frac{37,203-34,590}{34,590}\\times 100\n= 7.5536\\%\n\\]\n\nApplying the same growth rate to the 2025 population:\n\n\\[\n37,203 \\times \\frac{37,203}{34,590} \\approx 40,013.7\n\\]\n\nThe projected 2030 population is approximately 40,014, so it would exceed 40,000 residents.\n\nANSWER: yes | 40,014",
+      "1. Millbrook’s population increased from 34,590 in 2020 to 37,203 in 2025.\n2. Percentage growth:  \n   \\[\n   \\frac{37,203-34,590}{34,590}=\\frac{2,613}{34,590}\\approx 7.5542\\%\n   \\]\n3. Applying the same growth rate to the 2025 population:  \n   \\[\n   37,203 \\times (1.075542)\\approx 40,013.7\n   \\]\n4. Rounded to the nearest resident, the projected 2030 population is 40,014, which exceeds 40,000.\n\nANSWER: yes | 40,014",
+      "Millbrook’s population increased from 34,590 in 2020 to 37,203 in 2025.\n\nPercentage growth:\n\n\\[\n\\frac{37,203-34,590}{34,590}\\times 100\n= 7.5536\\%\n\\]\n\nApplying the same growth rate from 2025 to 2030:\n\n\\[\n37,203 \\times \\frac{37,203}{34,590}\n\\approx 40,014.1\n\\]\n\nThe projected 2030 population is approximately 40,014, so it would exceed 40,000 residents.\n\nANSWER: yes | 40,014",
+      "1. Millbrook’s population increased from 34,590 in 2020 to 37,203 in 2025, an increase of 2,613.\n2. The percentage growth was:\n   \\[\n   \\frac{37,203-34,590}{34,590}\\times 100 \\approx 7.553\\%\n   \\]\n3. Applying the same percentage growth to the 2025 population:\n   \\[\n   37,203 \\times \\frac{37,203}{34,590} \\approx 40,013.4\n   \\]\n4. The projected 2030 population is therefore about 40,013 residents, which exceeds 40,000.\n\nANSWER: yes | 40,013 residents",
+      "Millbrook’s population increased from 34,590 in 2020 to 37,203 in 2025.\n\n1. Calculate the percentage growth:\n   \\[\n   \\frac{37,203-34,590}{34,590}\\times 100\n   =\\frac{2,613}{34,590}\\times 100\n   \\approx 7.5536\\%\n   \\]\n\n2. Apply the same growth rate to the 2025 population:\n   \\[\n   37,203 \\times 1.075536 \\approx 40,013.2\n   \\]\n\nThe projected 2030 population is approximately 40,013 residents, so it would exceed 40,000.\n\nANSWER: yes | 40,013 residents"
+    ],
+    "chosen": "1. Millbrook’s population increased from 34,590 in 2020 to 37,203 in 2025, an increase of 2,613.\n2. The percentage growth was:\n   \\[\n   \\frac{37,203-34,590}{34,590}\\times 100 \\approx 7.553\\%\n   \\]\n3. Applying the same percentage growth to the 2025 population:\n   \\[\n   37,203 \\times \\frac{37,203}{34,590} \\approx 40,013.4\n   \\]\n4. The projected 2030 population is therefore about 40,013 residents, which exceeds 40,000.\n\nANSWER: yes | 40,013 residents",
+    "usage": {
+      "prompt_tokens": 10800,
+      "completion_tokens": 738,
+      "total_tokens": 11538
+    },
+    "time": 12.166699886322021
+  },
+  "s3": {
+    "answer": "The population grew by:\n\n\\[\n\\frac{37,203-34,590}{34,590}\\times100 \\approx 7.55\\%\n\\]\n\nApplying the same growth rate from 2025 to 2030:\n\n\\[\n37,203 \\times \\frac{37,203}{34,590} \\approx 40,014\n\\]\n\nYes, Millbrook would exceed 40,000 residents.\n\nANSWER: yes | 40,014",
+    "usage": {
+      "prompt_tokens": 1636,
+      "completion_tokens": 208,
+      "total_tokens": 1844
+    },
+    "time": 6.468299627304077,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Millbrook population 2020 2025 district profile"
+        },
+        "result": "{\"error\": \"No match found for: 'Millbrook population 2020 2025 district profile'\"}",
+        "duration": 0.0007939338684082031
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Millbrook 2020 population 2025 population"
+        },
+        "result": "{\"error\": \"No match found for: 'Millbrook 2020 population 2025 population'\"}",
+        "duration": 0.00021910667419433594
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Millbrook"
+        },
+        "result": "{\"id\": \"NR-11\", \"title\": \"Millbrook district profile (2025)\", \"text\": \"Millbrook has 15 schools, which enrolled 5,562 pupils for the 2025/26 school year. The district, founded in 1897, stretches along the Mill Brook over 758.6 square kilometres and keeps 360.1 km of paved road. Census population: 34,590 in 2020 and 37,203 in 2025. Households used 2,806 megalitres of water during 2025, and the district's 2025 budget amounted to 6,305.7 million tenge.\"}",
+        "duration": 0.00043582916259765625
+      },
+      {
+        "round": 3,
+        "tool": "calculate",
+        "arguments": {
+          "expression": "37203*(1+(37203-34590)/34590)"
+        },
+        "result": "{\"error\": \"module 'ast' has no attribute 'Num'\"}",
+        "duration": 0.00014400482177734375
+      }
+    ]
+  }
+}

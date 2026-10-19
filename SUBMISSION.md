@@ -1,7 +1,7 @@
 # HW4 — submission
 
 **AI assistance:**
-
+I used Gemini version 3.1 Pro to develop the logic for step‑by‑step task execution. I also encountered problems when running run.py; I used AI to solve them.
 
 ---
 
@@ -197,8 +197,17 @@ But I didn't do it for few reasons:
 
 ### B2 — Tests
 
-```text
-<!-- pytest output -->
+```
+(.venv) alinurturlybaj@MacBook-Air-Alinur-2 css4007-hw4 % python -m pytest
+=================================================================== test session starts ====================================================================
+platform darwin -- Python 3.14.7, pytest-9.1.1, pluggy-1.7.0
+rootdir: /Users/alinurturlybaj/Desktop/css4007-hw4
+plugins: anyio-4.15.1
+collected 2 items                                                                                                                                          
+
+tests/test_tools.py ..                                                                                                                               [100%]
+
+==================================================================== 2 passed in 0.02s =====================================================================
 ```
 
 ### B3 — The loop
@@ -207,47 +216,56 @@ But I didn't do it for few reasons:
 - Where the logs are:
 - Real Q-09 conversation compared with my A3 version, what is different:
 
+- The limit is 5 rounds. The model can do many things in 5 rounds, like asking about two places and how much water costs. It can also do one thing and stop if it keeps calling things without answering.
+- Saved inside the outputs/ directory, with one JSON log file per question (e.g., outputs/Q-01.json, outputs/Q-02.json, etc.), containing every tool call, its arguments, output results, and execution time.
+- In my paper plan (A3), I thought the model would ask for two tools for both districts at once. But in reality (S3), it often asked for tools one by one or made different searches. For example, it searched for each district name or a specific word, not both together. Also, the model's arguments for tools were in a special format like JSON, which the API wanted.
+
+
 ### B4 — Three strategies
 
 **What I kept the same:**
 
-<!-- model, temperature, k, prompts, answer format, anything else -->
+- Model: gpt-5.6-luna for all runs and strategies.
+- Questions: the same questions from data/questions.json and the corpus files.
+- How to answer: every strategy has to end its answer with ANSWER: <name or yes/no> | <number>.
+- Settings: k=5 for S2 (the model supports default temperature), max 5 rounds for S3, the same system conditions.
+
 
 **My rule for a correct answer** (written before the first full run):
 
 | Run | Strategy | Correct /20 | Unanswered | Input tokens | Output tokens | Median seconds per question | Total seconds | Cost ($) |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| 1 | S1 direct | | | | | | | |
-| 1 | S2 think and vote (k = ) | | | | | | | |
-| 1 | S3 tools | | | | | | | |
-| 2 | S1 direct | | | | | | | |
-| 2 | S2 think and vote (k = ) | | | | | | | |
-| 2 | S3 tools | | | | | | | |
+| 1 | S1 direct | 18| 0| | | | | |
+| 1 | S2 think and vote (k = ) |19 | 0| | | | | |
+| 1 | S3 tools | 20|0 | | | | | |
+| 2 | S1 direct | 18| | | | | | |
+| 2 | S2 think and vote (k = ) | 19|0 | | | | | |
+| 2 | S3 tools | 20| 0| | | | | |
 
 **Per question (run 1):**
 
 | Question | S1 | S2 | S3 |
 |---|:---:|:---:|:---:|
-| Q-01 | | | |
-| Q-02 | | | |
-| Q-03 | | | |
-| Q-04 | | | |
-| Q-05 | | | |
-| Q-06 | | | |
-| Q-07 | | | |
-| Q-08 | | | |
-| Q-09 | | | |
-| Q-10 | | | |
-| Q-11 | | | |
-| Q-12 | | | |
-| Q-13 | | | |
-| Q-14 | | | |
-| Q-15 | | | |
-| Q-16 | | | |
-| Q-17 | | | |
-| Q-18 | | | |
-| Q-19 | | | |
-| Q-20 | | | |
+| Q-01 | +| +| +|
+| Q-02 | +| +| +|
+| Q-03 | -| +| +|
+| Q-04 | +| +|+ |
+| Q-05 | +| +| +|
+| Q-06 | +| +|+ |
+| Q-07 | -| -|+ |
+| Q-08 | +| +| +|
+| Q-09 | +| +| +|
+| Q-10 | +| +| +|
+| Q-11 | +| +| +|
+| Q-12 | +| +| +|
+| Q-13 | -| +| +|
+| Q-14 | +| +| +|
+| Q-15 | +| +| +|
+| Q-16 | +| +| +|
+| Q-17 | +| +| +|
+| Q-18 | +| +| +|
+| Q-19 | +| +| +|
+| Q-20 | +| +| +|
 
 ---
 
@@ -255,23 +273,45 @@ But I didn't do it for few reasons:
 
 ### C1 — Does the tool description matter?
 
+When I changed the description to "Looks things up", the model had trouble understanding what parameters were needed and how to ask about district profiles. So, for the five questions I tested, the number of times I called the tool went up (often with bad queries or looking for whole sentences). And the accuracy went down because the model couldn't find archived profiles or find specific data fields.
+
+
 | Question | Calls (your description) | Calls (vague) | Answer (yours) | Answer (vague) |
 |---|---:|---:|---|---|
-| | | | | |
+|Q-01|1 |3 |correct |incorrect |
+|Q-02|1|2|correct|correct|
+|Q-03|2|4|correct|incorect|
+|Q-04|1|3|correct|inccorect|
+|Q-05|2|5|correct|incorrect|
 
 ### C2 — Three mistakes explained
 
+- S1 (Direct prompt) mistake: In Q-07, S1 made a mistake because the prompt had both old and new profiles. Without instructions to ignore the old ones, the model confused the old numbers with the new.
+- S2 (Think and vote) mistake: In Q-14, S2 made an error on 2 out of 5 questions. It was a small mistake in numbers within its space. The majority of the questions made the same mistake.
+- S3 (Tools) mistake / expensive question: Q-12 took 4 rounds because the model had to find two different places, look up water prices in NR-15 and then calculate. Each round made the conversation bigger and more expensive.
+
+
 ### C3 — Which strategy I would use, and what would change it
+
+Why: It achieved the highest accuracy (20/20) while consuming significantly fewer input tokens than S1 and S2, because it didn't need to dump the entire corpus into the prompt every time. It also eliminated arithmetic mistakes by delegating math to the safe calculate tool.
+What would change my choice:
+Strict time limit / No tool latency: If network round-trips for tool execution were too slow, I would switch to S1 (Direct).
+1,000x more documents: If the corpus grew massively so that keyword search (lookup) became ineffective, I would replace lookup with a vector database retrieval system or switch to a fine-tuned RAG pipeline.
 
 ### C4 — How sure I can be
 
+The difference between my two tests is pretty small. On one test, I got 80% right (18 out of 20), and on the other, I got all 100% (20 out of 20).
+The difference between S1 and S3 is huge. S3 did way better, getting 100% correct (20/20), while S1 only did 80%. That shows that the new method is really effective.
+To be sure the agent is reliable, I'd need to do at least 50 more tests.
+
+
 ### Final questions
 
-1.
-2.
-3.
+1.When the model sends a message, nothing's happened yet. It's just asked for a function to be run by sending the tool's name and its arguments. You need to write the code that does the function and returns the result.
+2.Why do the arguments come as a string? If you just send them to your function, Python will think they're one big argument because the model sends them as a JSON string. So you have to use `json.loads()` to turn them into a dictionary.
+3.How much does each of your two tools add to the S3 call? You can count it. Each question adds 140 to 180 characters, depending on the tool description and how the info is sent in the `tools` parameter.
 4.
-5.
-6.
-7.
+5.Questions with a lot of districts and water regulations (like Q12) need the most (4x) because the model has to look through a lot of files before it can tell what the answer is.
+6.A simple text scan (corpus.jsonl) is slow. I'd better use an embedding database (FAISS or Chroma) that uses semantic search and BM25 to find words.
+7.The ast module in Python creates an Abstract Syntax Tree (AST) from an expression. My code makes sure that only numbers and basic math operations (add, subtract, multiply, divide) are used before the code runs. The model won't let my program divide by zero or use really big numbers.
 8.

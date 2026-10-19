@@ -1,0 +1,81 @@
+{
+  "question_id": "Q-10",
+  "question": "Which district is older, Stonecairn or Coldharbour, and how many years older is it than the other?",
+  "s1": {
+    "answer": "Stonecairn is older than Coldharbour by 8 years.  \nANSWER: Stonecairn | 8",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 2129,
+      "total_tokens": 2157,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2126,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 2.137423038482666
+  },
+  "s2": {
+    "answers": [
+      "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\n1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8",
+      "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\n1837 is 8 years earlier than 1845, so Stonecairn is older by 8 years.\n\nANSWER: Stonecairn | 8",
+      "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\n1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8",
+      "Stonecairn was founded in 1837, while Coldharbour was founded in 1845. Therefore, Stonecairn is older by 1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8",
+      "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\n1837 is 8 years earlier than 1845, so Stonecairn is older by 8 years.\n\nANSWER: Stonecairn | 8"
+    ],
+    "chosen": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\n1837 is 8 years earlier than 1845, so Stonecairn is older by 8 years.\n\nANSWER: Stonecairn | 8",
+    "usage": {
+      "prompt_tokens": 10670,
+      "completion_tokens": 261,
+      "total_tokens": 10931
+    },
+    "time": 8.784771203994751
+  },
+  "s3": {
+    "answer": "I couldn’t find reliable information on the founding dates of Stonecairn or Coldharbour, so I can’t determine which district is older or calculate the difference.\n\nANSWER: unknown | unknown",
+    "usage": {
+      "prompt_tokens": 868,
+      "completion_tokens": 127,
+      "total_tokens": 995
+    },
+    "time": 5.295681953430176,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Stonecairn district founding year age established"
+        },
+        "result": "{\"error\": \"No match found for: 'Stonecairn district founding year age established'\"}",
+        "duration": 0.0010540485382080078
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Coldharbour district founding year age established"
+        },
+        "result": "{\"error\": \"No match found for: 'Coldharbour district founding year age established'\"}",
+        "duration": 0.00041222572326660156
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Stonecairn Coldharbour district older years"
+        },
+        "result": "{\"error\": \"No match found for: 'Stonecairn Coldharbour district older years'\"}",
+        "duration": 0.0007128715515136719
+      }
+    ]
+  }
+}

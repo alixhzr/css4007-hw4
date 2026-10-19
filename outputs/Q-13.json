@@ -1,0 +1,90 @@
+{
+  "question_id": "Q-13",
+  "question": "Ossford, Stonecairn and Coldharbour all lost population between the 2020 and 2025 censuses. Which lost the largest percentage, and what was that percentage?",
+  "s1": {
+    "answer": "Stonecairn lost the largest percentage of its population:\n\n- Ossford: \\( (31,560 - 30,982) / 31,560 \\times 100 \\approx 1.83\\% \\)\n- Stonecairn: \\( (15,473 - 14,926) / 15,473 \\times 100 \\approx 3.53\\% \\)\n- Coldharbour: \\( (11,902 - 11,407) / 11,902 \\times 100 \\approx 4.16\\% \\)\n\nANSWER: Coldharbour | 4.16%",
+    "usage": {
+      "completion_tokens": 131,
+      "prompt_tokens": 2142,
+      "total_tokens": 2273,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2139,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 2.127908229827881
+  },
+  "s2": {
+    "answers": [
+      "Calculate the percentage population loss for each:\n\n- **Ossford:** \\((31,560 - 30,982) / 31,560 \\times 100 \\approx 1.83\\%\\)\n- **Stonecairn:** \\((15,473 - 14,926) / 15,473 \\times 100 \\approx 3.53\\%\\)\n- **Coldharbour:** \\((11,902 - 11,407) / 11,902 \\times 100 \\approx 4.16\\%\\)\n\nColdharbour lost the largest percentage of its population.\n\nANSWER: Coldharbour | 4.16%",
+      "Compute each population decrease as a percentage of its 2020 population:\n\n- **Ossford:** \\(31,560 - 30,982 = 578\\) decrease  \n  \\(578 / 31,560 \\times 100 \\approx 1.83\\%\\)\n\n- **Stonecairn:** \\(15,473 - 14,926 = 547\\) decrease  \n  \\(547 / 15,473 \\times 100 \\approx 3.54\\%\\)\n\n- **Coldharbour:** \\(11,902 - 11,407 = 495\\) decrease  \n  \\(495 / 11,902 \\times 100 \\approx 4.16\\%\\)\n\nColdharbour lost the largest percentage of its population.\n\nANSWER: Coldharbour | 4.16%",
+      "Calculate each population decrease as a percentage of its 2020 population:\n\n- **Ossford:** \\(31,560 - 30,982 = 578\\) decrease  \n  \\(578 / 31,560 \\times 100 \\approx 1.83\\%\\)\n\n- **Stonecairn:** \\(15,473 - 14,926 = 547\\) decrease  \n  \\(547 / 15,473 \\times 100 \\approx 3.54\\%\\)\n\n- **Coldharbour:** \\(11,902 - 11,407 = 495\\) decrease  \n  \\(495 / 11,902 \\times 100 \\approx 4.16\\%\\)\n\nColdharbour lost the largest percentage of its population.\n\nANSWER: Coldharbour | 4.16%",
+      "Calculate each district’s percentage population loss:\n\n- **Ossford:** \\(31,560 - 30,982 = 578\\) loss  \n  \\(578 / 31,560 \\times 100 \\approx 1.83\\%\\)\n\n- **Stonecairn:** \\(15,473 - 14,926 = 547\\) loss  \n  \\(547 / 15,473 \\times 100 \\approx 3.54\\%\\)\n\n- **Coldharbour:** \\(11,902 - 11,407 = 495\\) loss  \n  \\(495 / 11,902 \\times 100 \\approx 4.16\\%\\)\n\nColdharbour lost the largest percentage of its population.\n\nANSWER: Coldharbour | 4.16%",
+      "Calculate each district’s percentage population loss:\n\n- **Ossford:** \\(31,560 - 30,982 = 578\\) lost  \n  \\(578 / 31,560 \\times 100 \\approx 1.83\\%\\)\n\n- **Stonecairn:** \\(15,473 - 14,926 = 547\\) lost  \n  \\(547 / 15,473 \\times 100 \\approx 3.54\\%\\)\n\n- **Coldharbour:** \\(11,902 - 11,407 = 495\\) lost  \n  \\(495 / 11,902 \\times 100 \\approx 4.16\\%\\)\n\nColdharbour lost the largest percentage of its population.\n\nANSWER: Coldharbour | 4.16%"
+    ],
+    "chosen": "Calculate each population decrease as a percentage of its 2020 population:\n\n- **Ossford:** \\(31,560 - 30,982 = 578\\) decrease  \n  \\(578 / 31,560 \\times 100 \\approx 1.83\\%\\)\n\n- **Stonecairn:** \\(15,473 - 14,926 = 547\\) decrease  \n  \\(547 / 15,473 \\times 100 \\approx 3.54\\%\\)\n\n- **Coldharbour:** \\(11,902 - 11,407 = 495\\) decrease  \n  \\(495 / 11,902 \\times 100 \\approx 4.16\\%\\)\n\nColdharbour lost the largest percentage of its population.\n\nANSWER: Coldharbour | 4.16%",
+    "usage": {
+      "prompt_tokens": 10735,
+      "completion_tokens": 803,
+      "total_tokens": 11538
+    },
+    "time": 12.065466165542603
+  },
+  "s3": {
+    "answer": "I couldn’t find population figures for Ossford, Stonecairn, or Coldharbour in the available data, so I can’t calculate which had the largest percentage loss.\n\nANSWER: unavailable | unavailable",
+    "usage": {
+      "prompt_tokens": 1026,
+      "completion_tokens": 158,
+      "total_tokens": 1184
+    },
+    "time": 4.798348903656006,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ossford population 2020 2025 census"
+        },
+        "result": "{\"error\": \"No match found for: 'Ossford population 2020 2025 census'\"}",
+        "duration": 0.0007030963897705078
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Stonecairn population 2020 2025 census"
+        },
+        "result": "{\"error\": \"No match found for: 'Stonecairn population 2020 2025 census'\"}",
+        "duration": 0.00023484230041503906
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Coldharbour population 2020 2025 census"
+        },
+        "result": "{\"error\": \"No match found for: 'Coldharbour population 2020 2025 census'\"}",
+        "duration": 0.0002110004425048828
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ossford Stonecairn Coldharbour"
+        },
+        "result": "{\"error\": \"No match found for: 'Ossford Stonecairn Coldharbour'\"}",
+        "duration": 0.0008840560913085938
+      }
+    ]
+  }
+}
