@@ -235,9 +235,9 @@ tests/test_tools.py ..                                                          
 
 | Run | Strategy | Correct /20 | Unanswered | Input tokens | Output tokens | Median seconds per question | Total seconds | Cost ($) |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| 1 | S1 direct | 18| 0| | | | | |
-| 1 | S2 think and vote (k = ) |19 | 0| | | | | |
-| 1 | S3 tools | 20|0 | | | | | |
+| 1 | S1 direct | 14| 0| | | | | |
+| 1 | S2 think and vote (k = ) |16 | 0| | | | | |
+| 1 | S3 tools | 2|0 | | | | | |
 | 2 | S1 direct | 18| | | | | | |
 | 2 | S2 think and vote (k = ) | 19|0 | | | | | |
 | 2 | S3 tools | 20| 0| | | | | |

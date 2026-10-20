@@ -1,0 +1,117 @@
+{
+  "question_id": "Q-11",
+  "question": "Of Redfen, Ashgrove and Millbrook, which district has the fewest pupils per school in 2025/26, and how many pupils per school separate the highest of the three from the lowest?",
+  "s1": {
+    "answer": "Pupils per school:\n\n- Redfen: 3,147 ÷ 10 = 314.7\n- Ashgrove: 8,837 ÷ 24 ≈ 368.2\n- Millbrook: 5,562 ÷ 15 = 370.8\n\nRedfen has the fewest pupils per school. The difference between the highest (Millbrook) and lowest (Redfen) is 370.8 − 314.7 = **56.1 pupils per school**.\n\nANSWER: Redfen | 56.1 pupils per school",
+    "usage": {
+      "completion_tokens": 122,
+      "prompt_tokens": 2147,
+      "total_tokens": 2269,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2144,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 1.9407832622528076
+  },
+  "s2": {
+    "answers": [
+      "Calculate pupils per school:\n\n- **Redfen:** 3,147 ÷ 10 = **314.7**\n- **Ashgrove:** 8,837 ÷ 24 ≈ **368.2**\n- **Millbrook:** 5,562 ÷ 15 = **370.8**\n\nRedfen has the fewest pupils per school. The difference between the highest (Millbrook) and lowest (Redfen) is:\n\n370.8 − 314.7 = **56.1 pupils per school**\n\nANSWER: Redfen | 56.1",
+      "Compute pupils per school for each district:\n\n- **Redfen:** 3,147 ÷ 10 = **314.7 pupils per school**\n- **Ashgrove:** 8,837 ÷ 24 ≈ **368.2 pupils per school**\n- **Millbrook:** 5,562 ÷ 15 = **370.8 pupils per school**\n\nThus, **Redfen** has the fewest pupils per school. The difference between the highest (Millbrook) and lowest (Redfen) is:\n\n370.8 − 314.7 = **56.1 pupils per school**\n\nANSWER: Redfen | 56.1 pupils per school",
+      "Calculate pupils per school:\n\n- **Redfen:** 3,147 ÷ 10 = **314.7**\n- **Ashgrove:** 8,837 ÷ 24 ≈ **368.2**\n- **Millbrook:** 5,562 ÷ 15 = **370.8**\n\nRedfen has the fewest pupils per school. The difference between the highest (Millbrook) and lowest (Redfen) is:\n\n370.8 − 314.7 = **56.1 pupils per school**\n\nANSWER: Redfen | 56.1",
+      "Calculate pupils per school:\n\n- **Redfen:** 3,147 ÷ 10 = **314.7 pupils per school**\n- **Ashgrove:** 8,837 ÷ 24 ≈ **368.2 pupils per school**\n- **Millbrook:** 5,562 ÷ 15 = **370.8 pupils per school**\n\nRedfen has the fewest pupils per school. The difference between the highest (Millbrook) and lowest (Redfen) is:\n\n370.8 − 314.7 = **56.1 pupils per school**\n\nANSWER: Redfen | 56.1",
+      "Calculate pupils per school:\n\n- **Redfen:** 3,147 ÷ 10 = **314.7**\n- **Ashgrove:** 8,837 ÷ 24 ≈ **368.2**\n- **Millbrook:** 5,562 ÷ 15 = **370.8**\n\nRedfen has the fewest pupils per school. The difference between the highest (Millbrook) and lowest (Redfen) is:\n\n370.8 − 314.7 = **56.1 pupils per school**\n\nANSWER: Redfen | 56.1"
+    ],
+    "chosen": "Calculate pupils per school:\n\n- **Redfen:** 3,147 ÷ 10 = **314.7**\n- **Ashgrove:** 8,837 ÷ 24 ≈ **368.2**\n- **Millbrook:** 5,562 ÷ 15 = **370.8**\n\nRedfen has the fewest pupils per school. The difference between the highest (Millbrook) and lowest (Redfen) is:\n\n370.8 − 314.7 = **56.1 pupils per school**\n\nANSWER: Redfen | 56.1",
+    "usage": {
+      "prompt_tokens": 10760,
+      "completion_tokens": 628,
+      "total_tokens": 11388
+    },
+    "time": 9.818304061889648
+  },
+  "s3": {
+    "answer": "Redfen has the fewest pupils per school: 314.7 pupils per school. Ashgrove has the highest, at approximately 368.2 pupils per school, so the difference is approximately 53.5 pupils per school.\n\nANSWER: Redfen | 53.5",
+    "usage": {
+      "prompt_tokens": 2492,
+      "completion_tokens": 266,
+      "total_tokens": 2758
+    },
+    "time": 6.917029857635498,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Redfen district 2025/26 pupils schools pupils per school"
+        },
+        "result": "{\"error\": \"No match found for: 'Redfen district 2025/26 pupils schools pupils per school'\"}",
+        "duration": 0.0011072158813476562
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ashgrove district 2025/26 pupils schools pupils per school"
+        },
+        "result": "{\"error\": \"No match found for: 'Ashgrove district 2025/26 pupils schools pupils per school'\"}",
+        "duration": 0.00040411949157714844
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Millbrook district 2025/26 pupils schools pupils per school"
+        },
+        "result": "{\"error\": \"No match found for: 'Millbrook district 2025/26 pupils schools pupils per school'\"}",
+        "duration": 0.00036597251892089844
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Redfen"
+        },
+        "result": "{\"id\": \"NR-09\", \"title\": \"Redfen district profile (2025)\", \"text\": \"Redfen lies on the Red Fen drain and was founded in 1932. The 2025 census counted 20,934 residents, up from 19,288 at the 2020 census, on an area of 677.1 square kilometres. The district runs 10 schools with 3,147 pupils enrolled in the 2025/26 school year. Its 2025 budget was 3,512.0 million tenge, and it maintains 244.6 km of paved road. Households used 1,488 megalitres of water in 2025.\"}",
+        "duration": 0.0009629726409912109
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ashgrove"
+        },
+        "result": "{\"id\": \"NR-10\", \"title\": \"Ashgrove district profile (2025)\", \"text\": \"Founded in 1878 on the Ash, Ashgrove covers 1,519.2 square kilometres. Its budget for 2025 was set at 10,488.1 million tenge. Household water use in 2025 came to 4,390 megalitres. There are 24 schools in the district, attended by 8,837 pupils in 2025/26. The 2025 census recorded 58,760 residents; the 2020 census had recorded 56,041. The district's paved road network is 733.9 km long.\"}",
+        "duration": 0.0003478527069091797
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Millbrook"
+        },
+        "result": "{\"id\": \"NR-11\", \"title\": \"Millbrook district profile (2025)\", \"text\": \"Millbrook has 15 schools, which enrolled 5,562 pupils for the 2025/26 school year. The district, founded in 1897, stretches along the Mill Brook over 758.6 square kilometres and keeps 360.1 km of paved road. Census population: 34,590 in 2020 and 37,203 in 2025. Households used 2,806 megalitres of water during 2025, and the district's 2025 budget amounted to 6,305.7 million tenge.\"}",
+        "duration": 0.00031113624572753906
+      },
+      {
+        "round": 3,
+        "tool": "calculate",
+        "arguments": {
+          "expression": "max(3147/10,8837/24,5562/15)-min(3147/10,8837/24,5562/15)"
+        },
+        "result": "{\"error\": \"module 'ast' has no attribute 'Num'\"}",
+        "duration": 0.0003330707550048828
+      }
+    ]
+  }
+}

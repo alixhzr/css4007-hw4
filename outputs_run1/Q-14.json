@@ -1,0 +1,99 @@
+{
+  "question_id": "Q-14",
+  "question": "In 2025, which district's households used more water per resident per day, Tarnvale or Ashgrove, and by how many litres per resident per day?",
+  "s1": {
+    "answer": "Tarnvale households used more water per resident per day.\n\n- Tarnvale: \\(5{,}207{,}000 \\div 71{,}388 \\div 365 \\approx 0.1997\\) litres per resident per day\n- Ashgrove: \\(4{,}390{,}000 \\div 58{,}760 \\div 365 \\approx 0.2047\\) litres per resident per day\n\nAshgrove was higher by approximately **0.0050 litres per resident per day**.\n\nANSWER: Ashgrove | 0.0050 litres per resident per day",
+    "usage": {
+      "completion_tokens": 133,
+      "prompt_tokens": 2138,
+      "total_tokens": 2271,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2135,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 2.1906588077545166
+  },
+  "s2": {
+    "answers": [
+      "Tarnvale’s household water use per resident per day:\n\n- \\(5{,}207\\) megalitres \\(= 5{,}207{,}000{,}000\\) litres\n- \\(5{,}207{,}000{,}000 \\div 71{,}388 \\div 365 \\approx 199.84\\) litres per resident per day\n\nAshgrove’s:\n\n- \\(4{,}390\\) megalitres \\(= 4{,}390{,}000{,}000\\) litres\n- \\(4{,}390{,}000{,}000 \\div 58{,}760 \\div 365 \\approx 204.65\\) litres per resident per day\n\nDifference:\n\n- \\(204.65 - 199.84 \\approx 4.81\\) litres per resident per day\n\nANSWER: Ashgrove | 4.81 litres per resident per day",
+      "Tarnvale’s 2025 household water use per resident per day:\n\n- \\(5{,}207\\) megalitres \\(= 5{,}207{,}000{,}000\\) litres\n- \\(71{,}388\\) residents over 365 days\n- \\(5{,}207{,}000{,}000 \\div (71{,}388 \\times 365) \\approx 199.85\\) litres per resident per day\n\nAshgrove’s:\n\n- \\(4{,}390\\) megalitres \\(= 4{,}390{,}000{,}000\\) litres\n- \\(58{,}760\\) residents over 365 days\n- \\(4{,}390{,}000{,}000 \\div (58{,}760 \\times 365) \\approx 204.59\\) litres per resident per day\n\nDifference:\n\n\\(204.59 - 199.85 \\approx 4.74\\) litres per resident per day.\n\nANSWER: Ashgrove | 4.74 litres per resident per day",
+      "Tarnvale’s per-resident daily water use:\n\n- \\(5{,}207\\) megalitres \\(= 5{,}207{,}000{,}000\\) litres\n- \\(71{,}388\\) residents over \\(365\\) days\n- \\(5{,}207{,}000{,}000 \\div (71{,}388 \\times 365) \\approx 199.75\\) litres per resident per day\n\nAshgrove’s:\n\n- \\(4{,}390\\) megalitres \\(= 4{,}390{,}000{,}000\\) litres\n- \\(58{,}760\\) residents over \\(365\\) days\n- \\(4{,}390{,}000{,}000 \\div (58{,}760 \\times 365) \\approx 204.66\\) litres per resident per day\n\nDifference:\n\n- \\(204.66 - 199.75 \\approx 4.91\\) litres per resident per day\n\nANSWER: Ashgrove | 4.91 litres per resident per day",
+      "Tarnvale:\n\n- Water use: 5,207 megalitres = 5,207,000,000 litres\n- Population: 71,388\n- Daily per-resident use: \\(5,207,000,000 \\div 71,388 \\div 365 \\approx 199.79\\) litres\n\nAshgrove:\n\n- Water use: 4,390 megalitres = 4,390,000,000 litres\n- Population: 58,760\n- Daily per-resident use: \\(4,390,000,000 \\div 58,760 \\div 365 \\approx 204.63\\) litres\n\nDifference:\n\n\\(204.63 - 199.79 \\approx 4.84\\) litres per resident per day.\n\nANSWER: Ashgrove | 4.84 litres per resident per day",
+      "Tarnvale’s household water use per resident per day:\n\n- \\(5{,}207\\) megalitres \\(= 5{,}207{,}000{,}000\\) litres\n- \\(71{,}388\\) residents × 365 days\n- \\(5{,}207{,}000{,}000 \\div (71{,}388 \\times 365) \\approx 199.75\\) litres per resident per day\n\nAshgrove’s:\n\n- \\(4{,}390\\) megalitres \\(= 4{,}390{,}000{,}000\\) litres\n- \\(58{,}760\\) residents × 365 days\n- \\(4{,}390{,}000{,}000 \\div (58{,}760 \\times 365) \\approx 204.65\\) litres per resident per day\n\nDifference:\n\n\\(204.65 - 199.75 \\approx 4.90\\) litres per resident per day.\n\nANSWER: Ashgrove | 4.90 litres per resident per day"
+    ],
+    "chosen": "Tarnvale’s household water use per resident per day:\n\n- \\(5{,}207\\) megalitres \\(= 5{,}207{,}000{,}000\\) litres\n- \\(71{,}388\\) residents × 365 days\n- \\(5{,}207{,}000{,}000 \\div (71{,}388 \\times 365) \\approx 199.75\\) litres per resident per day\n\nAshgrove’s:\n\n- \\(4{,}390\\) megalitres \\(= 4{,}390{,}000{,}000\\) litres\n- \\(58{,}760\\) residents × 365 days\n- \\(4{,}390{,}000{,}000 \\div (58{,}760 \\times 365) \\approx 204.65\\) litres per resident per day\n\nDifference:\n\n\\(204.65 - 199.75 \\approx 4.90\\) litres per resident per day.\n\nANSWER: Ashgrove | 4.90 litres per resident per day",
+    "usage": {
+      "prompt_tokens": 10715,
+      "completion_tokens": 1119,
+      "total_tokens": 11834
+    },
+    "time": 14.635926008224487
+  },
+  "s3": {
+    "answer": "I couldn’t find reliable data for Tarnvale or Ashgrove’s 2025 household water use, so I can’t determine which district used more or calculate the difference.\n\nANSWER: undetermined | undetermined",
+    "usage": {
+      "prompt_tokens": 1040,
+      "completion_tokens": 200,
+      "total_tokens": 1240
+    },
+    "time": 6.536048889160156,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "2025 Tarnvale household water use per resident per day litres"
+        },
+        "result": "{\"error\": \"No match found for: '2025 Tarnvale household water use per resident per day litres'\"}",
+        "duration": 0.0011858940124511719
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "2025 Ashgrove household water use per resident per day litres"
+        },
+        "result": "{\"error\": \"No match found for: '2025 Ashgrove household water use per resident per day litres'\"}",
+        "duration": 0.00040602684020996094
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Tarnvale Ashgrove 2025 water households residents"
+        },
+        "result": "{\"error\": \"No match found for: 'Tarnvale Ashgrove 2025 water households residents'\"}",
+        "duration": 0.0008032321929931641
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Tarnvale district profile water price 2025"
+        },
+        "result": "{\"error\": \"No match found for: 'Tarnvale district profile water price 2025'\"}",
+        "duration": 0.00039005279541015625
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ashgrove district profile water price 2025"
+        },
+        "result": "{\"error\": \"No match found for: 'Ashgrove district profile water price 2025'\"}",
+        "duration": 0.0003757476806640625
+      }
+    ]
+  }
+}

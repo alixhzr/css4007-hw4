@@ -1,0 +1,99 @@
+{
+  "question_id": "Q-03",
+  "question": "In 2025, which district's households used more water per resident per day, Lindenmoor or Kelmarsh, and by how many litres per resident per day?",
+  "s1": {
+    "answer": "Lindenmoor used more water per resident per day.\n\n- Lindenmoor: 2,151,400 m³ ÷ 29,051 residents ÷ 365 × 1,000 = **202.8 litres per resident per day**\n- Kelmarsh: 1,739,000 m³ ÷ 24,117 residents ÷ 365 × 1,000 = **197.6 litres per resident per day**\n\nDifference: **5.2 litres per resident per day**.\n\nANSWER: Lindenmoor | 5.2 litres per resident per day",
+    "usage": {
+      "completion_tokens": 120,
+      "prompt_tokens": 2138,
+      "total_tokens": 2258,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2135,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 2.1374781131744385
+  },
+  "s2": {
+    "answers": [
+      "Lindenmoor used 2,151,400 cubic metres of water, which equals 2,151,400,000 litres.\n\nUsing its 2025 population of 29,051:\n\n\\[\n\\frac{2,151,400,000}{29,051 \\times 365} \\approx 202.91\n\\]\n\nSo Lindenmoor used about 202.91 litres per resident per day.\n\nKelmarsh used 1,739 megalitres, or 1,739,000,000 litres. Using its population of 24,117:\n\n\\[\n\\frac{1,739,000,000}{24,117 \\times 365} \\approx 197.56\n\\]\n\nThe difference is:\n\n\\[\n202.91 - 197.56 \\approx 5.35\n\\]\n\nANSWER: Lindenmoor | 5.35 litres per resident per day",
+      "Lindenmoor used 2,151,400 cubic metres, or 2,151,400,000 litres, in 2025. With 29,051 residents:\n\n- Lindenmoor: \\(2,151,400,000 \\div 29,051 \\div 365 \\approx 202.8\\) litres per resident per day.\n- Kelmarsh: \\(1,739\\) megalitres \\(= 1,739,000,000\\) litres.  \n  \\(1,739,000,000 \\div 24,117 \\div 365 \\approx 197.6\\) litres per resident per day.\n\nDifference: \\(202.8 - 197.6 \\approx 5.2\\) litres per resident per day.\n\nANSWER: Lindenmoor | 5.2 litres per resident per day",
+      "Using 2025 population and household water use:\n\n- **Lindenmoor:** 2,151,400 cubic metres = 2,151,400,000 litres  \n  \\(2,151,400,000 \\div 29,051 \\div 365 \\approx 202.8\\) litres per resident per day\n\n- **Kelmarsh:** 1,739 megalitres = 1,739,000,000 litres  \n  \\(1,739,000,000 \\div 24,117 \\div 365 \\approx 197.5\\) litres per resident per day\n\nDifference: \\(202.8 - 197.5 \\approx 5.3\\) litres per resident per day.\n\nANSWER: Lindenmoor | 5.3 litres per resident per day",
+      "Lindenmoor’s 2025 household water use was reported as 2,151,400 cubic metres. Since 1 cubic metre equals 1,000 litres:\n\n- Lindenmoor: 2,151,400,000 litres ÷ 29,051 residents ÷ 365 days ≈ **202.86 litres per resident per day**\n- Kelmarsh: 1,739 megalitres = 1,739,000,000 litres  \n  1,739,000,000 litres ÷ 24,117 residents ÷ 365 days ≈ **197.56 litres per resident per day**\n\nDifference: 202.86 − 197.56 ≈ **5.30 litres per resident per day**.\n\nANSWER: Lindenmoor | 5.30 litres per resident per day",
+      "Lindenmoor’s water use was 2,151,400 cubic metres, equal to 2,151.4 megalitres or 2,151,400,000 litres.\n\nUsing its 29,051 residents and 365 days:\n\n- Lindenmoor: \\(2,151,400,000 \\div 29,051 \\div 365 \\approx 202.96\\) litres per resident per day.\n- Kelmarsh: \\(1,739,000,000 \\div 24,117 \\div 365 \\approx 197.55\\) litres per resident per day.\n\nDifference: \\(202.96 - 197.55 \\approx 5.41\\) litres per resident per day.\n\nANSWER: Lindenmoor | 5.41 litres per resident per day"
+    ],
+    "chosen": "Lindenmoor used 2,151,400 cubic metres, or 2,151,400,000 litres, in 2025. With 29,051 residents:\n\n- Lindenmoor: \\(2,151,400,000 \\div 29,051 \\div 365 \\approx 202.8\\) litres per resident per day.\n- Kelmarsh: \\(1,739\\) megalitres \\(= 1,739,000,000\\) litres.  \n  \\(1,739,000,000 \\div 24,117 \\div 365 \\approx 197.6\\) litres per resident per day.\n\nDifference: \\(202.8 - 197.6 \\approx 5.2\\) litres per resident per day.\n\nANSWER: Lindenmoor | 5.2 litres per resident per day",
+    "usage": {
+      "prompt_tokens": 10715,
+      "completion_tokens": 868,
+      "total_tokens": 11583
+    },
+    "time": 12.952983856201172
+  },
+  "s3": {
+    "answer": "I couldn’t find reliable data for either district’s 2025 household water use, so I can’t determine the difference.\n\nANSWER: unavailable | unavailable",
+    "usage": {
+      "prompt_tokens": 1028,
+      "completion_tokens": 182,
+      "total_tokens": 1210
+    },
+    "time": 5.179567813873291,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "2025 Lindenmoor household water use litres per resident per day"
+        },
+        "result": "{\"error\": \"No match found for: '2025 Lindenmoor household water use litres per resident per day'\"}",
+        "duration": 0.0008456707000732422
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "2025 Kelmarsh household water use litres per resident per day"
+        },
+        "result": "{\"error\": \"No match found for: '2025 Kelmarsh household water use litres per resident per day'\"}",
+        "duration": 0.0003108978271484375
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Lindenmoor Kelmarsh district profile water 2025"
+        },
+        "result": "{\"error\": \"No match found for: 'Lindenmoor Kelmarsh district profile water 2025'\"}",
+        "duration": 0.0008120536804199219
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Lindenmoor water consumption households residents"
+        },
+        "result": "{\"error\": \"No match found for: 'Lindenmoor water consumption households residents'\"}",
+        "duration": 0.00028395652770996094
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Kelmarsh water consumption households residents"
+        },
+        "result": "{\"error\": \"No match found for: 'Kelmarsh water consumption households residents'\"}",
+        "duration": 0.0002779960632324219
+      }
+    ]
+  }
+}

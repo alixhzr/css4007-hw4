@@ -1,0 +1,81 @@
+{
+  "question_id": "Q-05",
+  "question": "Which district had the larger 2025 budget per resident, Stonecairn or Coldharbour, and by how many tenge per resident?",
+  "s1": {
+    "answer": "Stonecairn’s 2025 budget per resident was:\n\n2,884.6 million tenge ÷ 14,926 residents = **193,237.3 tenge per resident**\n\nColdharbour’s was:\n\n2,366.9 million tenge ÷ 11,407 residents = **207,469.1 tenge per resident**\n\nColdharbour therefore had the larger budget per resident by **14,231.8 tenge per resident**.\n\nANSWER: Coldharbour | 14,231.8 tenge per resident",
+    "usage": {
+      "completion_tokens": 115,
+      "prompt_tokens": 2134,
+      "total_tokens": 2249,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2131,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 1.939842939376831
+  },
+  "s2": {
+    "answers": [
+      "Stonecairn’s 2025 budget per resident:\n\n\\[\n\\frac{2{,}884.6\\text{ million tenge}}{14{,}926}\n= \\frac{2{,}884{,}600{,}000}{14{,}926}\n\\approx 193{,}281.23\\text{ tenge}\n\\]\n\nColdharbour’s 2025 budget per resident:\n\n\\[\n\\frac{2{,}366.9\\text{ million tenge}}{11{,}407}\n= \\frac{2{,}366{,}900{,}000}{11{,}407}\n\\approx 207{,}516.87\\text{ tenge}\n\\]\n\nDifference:\n\n\\[\n207{,}516.87 - 193{,}281.23 \\approx 14{,}235.64\n\\]\n\nColdharbour had the larger 2025 budget per resident, by approximately 14,235.64 tenge per resident.\n\nANSWER: Coldharbour | 14,235.64 tenge per resident",
+      "Stonecairn’s 2025 budget per resident:\n\n2,884.6 million tenge ÷ 14,926 residents  \n= 2,884,600,000 ÷ 14,926  \n≈ 193,275.49 tenge per resident\n\nColdharbour’s 2025 budget per resident:\n\n2,366.9 million tenge ÷ 11,407 residents  \n= 2,366,900,000 ÷ 11,407  \n≈ 207,485.76 tenge per resident\n\nDifference:\n\n207,485.76 − 193,275.49 ≈ 14,210.27 tenge per resident\n\nTherefore, Coldharbour had the larger budget per resident by approximately 14,210.27 tenge per resident.\n\nANSWER: Coldharbour | 14,210.27 tenge per resident",
+      "Using the 2025 budget and population:\n\n- **Stonecairn:** 2,884.6 million tenge ÷ 14,926 residents ≈ **193,275.43 tenge per resident**\n- **Coldharbour:** 2,366.9 million tenge ÷ 11,407 residents ≈ **207,521.69 tenge per resident**\n\nDifference: 207,521.69 − 193,275.43 = **14,246.26 tenge per resident**.\n\nANSWER: Coldharbour | 14,246.26 tenge per resident",
+      "Stonecairn’s 2025 budget per resident:\n\n2,884.6 million tenge ÷ 14,926 residents  \n= 2,884,600,000 ÷ 14,926  \n≈ 193,282.86 tenge per resident\n\nColdharbour’s 2025 budget per resident:\n\n2,366.9 million tenge ÷ 11,407 residents  \n= 2,366,900,000 ÷ 11,407  \n≈ 207,509.42 tenge per resident\n\nDifference:\n\n207,509.42 − 193,282.86 ≈ 14,226.56 tenge per resident\n\nColdharbour had the larger budget per resident by approximately 14,226.56 tenge per resident.\n\nANSWER: Coldharbour | 14,226.56 tenge per resident",
+      "Stonecairn:\n\n\\[\n\\frac{2{,}884.6\\text{ million tenge}}{14{,}926}\n= \\frac{2{,}884{,}600{,}000}{14{,}926}\n\\approx 193{,}288.76\\text{ tenge per resident}\n\\]\n\nColdharbour:\n\n\\[\n\\frac{2{,}366.9\\text{ million tenge}}{11{,}407}\n= \\frac{2{,}366{,}900{,}000}{11{,}407}\n\\approx 207{,}516.87\\text{ tenge per resident}\n\\]\n\nDifference:\n\n\\[\n207{,}516.87 - 193{,}288.76 \\approx 14{,}228.11\n\\]\n\nColdharbour had the larger 2025 budget per resident by approximately 14,228.11 tenge per resident.\n\nANSWER: Coldharbour | 14,228.11 tenge per resident"
+    ],
+    "chosen": "Stonecairn’s 2025 budget per resident:\n\n2,884.6 million tenge ÷ 14,926 residents  \n= 2,884,600,000 ÷ 14,926  \n≈ 193,282.86 tenge per resident\n\nColdharbour’s 2025 budget per resident:\n\n2,366.9 million tenge ÷ 11,407 residents  \n= 2,366,900,000 ÷ 11,407  \n≈ 207,509.42 tenge per resident\n\nDifference:\n\n207,509.42 − 193,282.86 ≈ 14,226.56 tenge per resident\n\nColdharbour had the larger budget per resident by approximately 14,226.56 tenge per resident.\n\nANSWER: Coldharbour | 14,226.56 tenge per resident",
+    "usage": {
+      "prompt_tokens": 10695,
+      "completion_tokens": 950,
+      "total_tokens": 11645
+    },
+    "time": 13.10054612159729
+  },
+  "s3": {
+    "answer": "I couldn’t find data for Stonecairn or Coldharbour, so I can’t determine which had the larger 2025 budget per resident or calculate the difference.\n\nANSWER: unable to determine | unable to determine",
+    "usage": {
+      "prompt_tokens": 909,
+      "completion_tokens": 141,
+      "total_tokens": 1050
+    },
+    "time": 4.1744160652160645,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Stonecairn 2025 budget population residents district"
+        },
+        "result": "{\"error\": \"No match found for: 'Stonecairn 2025 budget population residents district'\"}",
+        "duration": 0.0010268688201904297
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Coldharbour 2025 budget population residents district"
+        },
+        "result": "{\"error\": \"No match found for: 'Coldharbour 2025 budget population residents district'\"}",
+        "duration": 0.00039696693420410156
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Stonecairn Coldharbour district budget 2025 tenge resident"
+        },
+        "result": "{\"error\": \"No match found for: 'Stonecairn Coldharbour district budget 2025 tenge resident'\"}",
+        "duration": 0.000965118408203125
+      }
+    ]
+  }
+}

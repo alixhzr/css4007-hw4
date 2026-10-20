@@ -1,0 +1,81 @@
+{
+  "question_id": "Q-12",
+  "question": "Which district's 2025 budget works out higher per school pupil, Harrowfield or Tarnvale, and by how many thousand tenge per pupil?",
+  "s1": {
+    "answer": "Harrowfield: 16,021.7 million tenge ÷ 13,904 pupils ≈ 1,152.3 thousand tenge per pupil.\n\nTarnvale: 12,960.3 million tenge ÷ 10,652 pupils ≈ 1,216.7 thousand tenge per pupil.\n\nTarnvale is higher by approximately 64.4 thousand tenge per pupil.\n\nANSWER: Tarnvale | 64.4 thousand tenge per pupil",
+    "usage": {
+      "completion_tokens": 102,
+      "prompt_tokens": 2135,
+      "total_tokens": 2237,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2132,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 1.6930732727050781
+  },
+  "s2": {
+    "answers": [
+      "Harrowfield:\n\n- Budget per pupil = 16,021.7 million tenge ÷ 13,904 pupils  \n  ≈ 1,152.3 thousand tenge per pupil\n\nTarnvale:\n\n- Budget per pupil = 12,960.3 million tenge ÷ 10,652 pupils  \n  ≈ 1,216.7 thousand tenge per pupil\n\nDifference:\n\n- 1,216.7 − 1,152.3 ≈ 64.4 thousand tenge per pupil\n\nTherefore, Tarnvale’s 2025 budget is higher per school pupil by approximately 64.4 thousand tenge.\n\nANSWER: Tarnvale | 64.4 thousand tenge per pupil",
+      "Harrowfield:\n\n- Budget per pupil = 16,021.7 million tenge ÷ 13,904 pupils  \n  = 1,152.3 thousand tenge per pupil\n\nTarnvale:\n\n- Budget per pupil = 12,960.3 million tenge ÷ 10,652 pupils  \n  = 1,216.7 thousand tenge per pupil\n\nDifference: 1,216.7 − 1,152.3 = **64.4 thousand tenge per pupil**.\n\nANSWER: Tarnvale | 64.4 thousand tenge per pupil",
+      "Harrowfield:\n- Budget per pupil = 16,021.7 million tenge ÷ 13,904 pupils\n- ≈ 1,152.3 thousand tenge per pupil\n\nTarnvale:\n- Budget per pupil = 12,960.3 million tenge ÷ 10,652 pupils\n- ≈ 1,216.7 thousand tenge per pupil\n\nDifference:\n- 1,216.7 − 1,152.3 ≈ 64.4 thousand tenge per pupil\n\nANSWER: Tarnvale | 64.4 thousand tenge per pupil",
+      "Harrowfield:\n\n- Budget per pupil = 16,021.7 million tenge ÷ 13,904 pupils  \n  ≈ 1,152.3 thousand tenge per pupil.\n\nTarnvale:\n\n- Budget per pupil = 12,960.3 million tenge ÷ 10,652 pupils  \n  ≈ 1,216.7 thousand tenge per pupil.\n\nDifference:\n\n- 1,216.7 − 1,152.3 ≈ **64.4 thousand tenge per pupil**.\n\nANSWER: Tarnvale | 64.4 thousand tenge per pupil",
+      "Harrowfield:\n\n- Budget per pupil = 16,021.7 million tenge ÷ 13,904 pupils  \n  ≈ 1,152.3 thousand tenge per pupil\n\nTarnvale:\n\n- Budget per pupil = 12,960.3 million tenge ÷ 10,652 pupils  \n  ≈ 1,216.7 thousand tenge per pupil\n\nDifference: 1,216.7 − 1,152.3 ≈ **64.4 thousand tenge per pupil**.\n\nANSWER: Tarnvale | 64.4 thousand tenge per pupil"
+    ],
+    "chosen": "Harrowfield:\n- Budget per pupil = 16,021.7 million tenge ÷ 13,904 pupils\n- ≈ 1,152.3 thousand tenge per pupil\n\nTarnvale:\n- Budget per pupil = 12,960.3 million tenge ÷ 10,652 pupils\n- ≈ 1,216.7 thousand tenge per pupil\n\nDifference:\n- 1,216.7 − 1,152.3 ≈ 64.4 thousand tenge per pupil\n\nANSWER: Tarnvale | 64.4 thousand tenge per pupil",
+    "usage": {
+      "prompt_tokens": 10700,
+      "completion_tokens": 657,
+      "total_tokens": 11357
+    },
+    "time": 12.16015100479126
+  },
+  "s3": {
+    "answer": "I couldn’t find data for Harrowfield or Tarnvale, so I can’t calculate the per-pupil difference.\n\nANSWER: unavailable | unavailable",
+    "usage": {
+      "prompt_tokens": 896,
+      "completion_tokens": 117,
+      "total_tokens": 1013
+    },
+    "time": 5.065305948257446,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Harrowfield 2025 budget school pupils district profile"
+        },
+        "result": "{\"error\": \"No match found for: 'Harrowfield 2025 budget school pupils district profile'\"}",
+        "duration": 0.0016858577728271484
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Tarnvale 2025 budget school pupils district profile"
+        },
+        "result": "{\"error\": \"No match found for: 'Tarnvale 2025 budget school pupils district profile'\"}",
+        "duration": 0.0003790855407714844
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Harrowfield Tarnvale"
+        },
+        "result": "{\"error\": \"No match found for: 'Harrowfield Tarnvale'\"}",
+        "duration": 0.0008289813995361328
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "question_id": "Q-19",
+  "question": "Which district has the denser paved road network, Lindenmoor or Redfen, and by how many km of road per square kilometre?",
+  "s1": {
+    "answer": "Lindenmoor: 402.3 km ÷ 1,015.7 km² ≈ 0.396 km/km².  \nRedfen: 244.6 km ÷ 677.1 km² ≈ 0.361 km/km².  \n\nLindenmoor’s paved road network is denser by approximately 0.035 km of road per square kilometre.\n\nANSWER: Lindenmoor | 0.035 km/km²",
+    "usage": {
+      "completion_tokens": 96,
+      "prompt_tokens": 2132,
+      "total_tokens": 2228,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2129,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 1.8620731830596924
+  },
+  "s2": {
+    "answers": [
+      "Using the corrected/profile areas:\n\n- **Lindenmoor:** 402.3 km ÷ 1,015.7 km² ≈ **0.396 km/km²**\n- **Redfen:** 244.6 km ÷ 677.1 km² ≈ **0.361 km/km²**\n\nDifference: 0.396 − 0.361 ≈ **0.035 km of road per square kilometre**.\n\nANSWER: Lindenmoor | 0.035 km/km²",
+      "Lindenmoor’s paved road density is:\n\n402.3 km ÷ 1,015.7 km² ≈ 0.396 km/km²\n\nRedfen’s paved road density is:\n\n244.6 km ÷ 677.1 km² ≈ 0.361 km/km²\n\nDifference:\n\n0.396 − 0.361 ≈ 0.035 km of road per square kilometre.\n\nANSWER: Lindenmoor | 0.035 km/km²",
+      "Using the corrected/current 2025 figures:\n\n- **Lindenmoor:** 402.3 km of paved road ÷ 1,015.7 km² = **0.396 km/km²**\n- **Redfen:** 244.6 km ÷ 677.1 km² = **0.361 km/km²**\n\nDifference: 0.396 − 0.361 = **0.035 km of road per square kilometre**.\n\nANSWER: Lindenmoor | 0.035 km/km²",
+      "Road density = paved road length ÷ area.\n\n- **Lindenmoor:** 402.3 km ÷ 1,015.7 km² ≈ **0.396 km/km²**\n- **Redfen:** 244.6 km ÷ 677.1 km² ≈ **0.361 km/km²**\n\nLindenmoor has the denser paved road network by approximately **0.034 km of road per square kilometre**.\n\nANSWER: Lindenmoor | 0.034 km/km²",
+      "Using the corrected/profile figures:\n\n- **Lindenmoor:** 402.3 km of paved road ÷ 1,015.7 km² = **0.3960 km/km²**\n- **Redfen:** 244.6 km ÷ 677.1 km² = **0.3613 km/km²**\n\nDifference: 0.3960 − 0.3613 = **0.0347 km of road per square kilometre**.\n\nANSWER: Lindenmoor | 0.0347 km/km²"
+    ],
+    "chosen": "Road density = paved road length ÷ area.\n\n- **Lindenmoor:** 402.3 km ÷ 1,015.7 km² ≈ **0.396 km/km²**\n- **Redfen:** 244.6 km ÷ 677.1 km² ≈ **0.361 km/km²**\n\nLindenmoor has the denser paved road network by approximately **0.034 km of road per square kilometre**.\n\nANSWER: Lindenmoor | 0.034 km/km²",
+    "usage": {
+      "prompt_tokens": 10685,
+      "completion_tokens": 538,
+      "total_tokens": 11223
+    },
+    "time": 9.742320775985718
+  },
+  "s3": {
+    "answer": "I couldn’t find reliable data for the paved road lengths and district areas of Lindenmoor or Redfen, so I can’t calculate which has the denser network.\n\nANSWER: undetermined | undetermined",
+    "usage": {
+      "prompt_tokens": 919,
+      "completion_tokens": 139,
+      "total_tokens": 1058
+    },
+    "time": 4.277007818222046,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Lindenmoor paved road network total paved roads area square kilometres district profile"
+        },
+        "result": "{\"error\": \"No match found for: 'Lindenmoor paved road network total paved roads area square kilometres district profile'\"}",
+        "duration": 0.0008029937744140625
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Redfen paved road network total paved roads area square kilometres district profile"
+        },
+        "result": "{\"error\": \"No match found for: 'Redfen paved road network total paved roads area square kilometres district profile'\"}",
+        "duration": 0.0002448558807373047
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Lindenmoor Redfen district paved roads area km2"
+        },
+        "result": "{\"error\": \"No match found for: 'Lindenmoor Redfen district paved roads area km2'\"}",
+        "duration": 0.0009529590606689453
+      }
+    ]
+  }
+}

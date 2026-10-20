@@ -1,0 +1,135 @@
+{
+  "question_id": "Q-13",
+  "question": "Ossford, Stonecairn and Coldharbour all lost population between the 2020 and 2025 censuses. Which lost the largest percentage, and what was that percentage?",
+  "s1": {
+    "answer": "Stonecairn lost the largest percentage:\n\n- Ossford: \\(578 / 31,560 \\times 100 \\approx 1.83\\%\\)\n- Stonecairn: \\(547 / 15,473 \\times 100 \\approx 3.54\\%\\)\n- Coldharbour: \\(495 / 11,902 \\times 100 \\approx 4.16\\%\\)\n\nANSWER: Coldharbour | 4.16%",
+    "usage": {
+      "completion_tokens": 98,
+      "prompt_tokens": 2142,
+      "total_tokens": 2240,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2139,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 1.7985279560089111
+  },
+  "s2": {
+    "answers": [
+      "Calculate each district’s percentage population loss:\n\n- **Ossford:** \\(31,560 - 30,982 = 578\\) lost  \n  \\(578 / 31,560 \\times 100 \\approx 1.83\\%\\)\n\n- **Stonecairn:** \\(15,473 - 14,926 = 547\\) lost  \n  \\(547 / 15,473 \\times 100 \\approx 3.54\\%\\)\n\n- **Coldharbour:** \\(11,902 - 11,407 = 495\\) lost  \n  \\(495 / 11,902 \\times 100 \\approx 4.16\\%\\)\n\nColdharbour lost the largest percentage of its population.\n\nANSWER: Coldharbour | 4.16%",
+      "Calculate each district’s percentage population loss:\n\n- **Ossford:** \\((31,560 - 30,982) / 31,560 \\times 100 \\approx 1.83\\%\\)\n- **Stonecairn:** \\((15,473 - 14,926) / 15,473 \\times 100 \\approx 3.53\\%\\)\n- **Coldharbour:** \\((11,902 - 11,407) / 11,902 \\times 100 \\approx 4.16\\%\\)\n\nColdharbour lost the largest percentage of its population.\n\nANSWER: Coldharbour | 4.16%",
+      "Calculate each district’s percentage population loss:\n\n- **Ossford:** \\(31,560 - 30,982 = 578\\) lost  \n  \\(578 / 31,560 \\times 100 \\approx 1.83\\%\\)\n\n- **Stonecairn:** \\(15,473 - 14,926 = 547\\) lost  \n  \\(547 / 15,473 \\times 100 \\approx 3.54\\%\\)\n\n- **Coldharbour:** \\(11,902 - 11,407 = 495\\) lost  \n  \\(495 / 11,902 \\times 100 \\approx 4.16\\%\\)\n\nColdharbour lost the largest percentage of its population.\n\nANSWER: Coldharbour | 4.16%",
+      "Ossford lost 578 residents:  \n\\(578 \\div 31{,}560 \\times 100 \\approx 1.83\\%\\)\n\nStonecairn lost 547 residents:  \n\\(547 \\div 15{,}473 \\times 100 \\approx 3.54\\%\\)\n\nColdharbour lost 495 residents:  \n\\(495 \\div 11{,}902 \\times 100 \\approx 4.16\\%\\)\n\nColdharbour had the largest percentage decrease.\n\nANSWER: Coldharbour | 4.16%",
+      "Ossford lost 578 residents:\n\n- Percentage loss: \\(578 \\div 31,560 \\times 100 \\approx 1.83\\%\\)\n\nStonecairn lost 547 residents:\n\n- Percentage loss: \\(547 \\div 15,473 \\times 100 \\approx 3.54\\%\\)\n\nColdharbour lost 495 residents:\n\n- Percentage loss: \\(495 \\div 11,902 \\times 100 \\approx 4.16\\%\\)\n\nColdharbour therefore lost the largest percentage of its population.\n\nANSWER: Coldharbour | 4.16%"
+    ],
+    "chosen": "Calculate each district’s percentage population loss:\n\n- **Ossford:** \\(31,560 - 30,982 = 578\\) lost  \n  \\(578 / 31,560 \\times 100 \\approx 1.83\\%\\)\n\n- **Stonecairn:** \\(15,473 - 14,926 = 547\\) lost  \n  \\(547 / 15,473 \\times 100 \\approx 3.54\\%\\)\n\n- **Coldharbour:** \\(11,902 - 11,407 = 495\\) lost  \n  \\(495 / 11,902 \\times 100 \\approx 4.16\\%\\)\n\nColdharbour lost the largest percentage of its population.\n\nANSWER: Coldharbour | 4.16%",
+    "usage": {
+      "prompt_tokens": 10735,
+      "completion_tokens": 711,
+      "total_tokens": 11446
+    },
+    "time": 10.03519892692566
+  },
+  "s3": {
+    "answer": "Ossford lost 578 people, or approximately **1.83%** of its 2020 population. Stonecairn lost approximately **3.53%**, while Coldharbour lost approximately **4.16%**. Therefore, Coldharbour had the largest percentage decline.\n\nANSWER: Coldharbour | 4.16%",
+    "usage": {
+      "prompt_tokens": 2534,
+      "completion_tokens": 315,
+      "total_tokens": 2849
+    },
+    "time": 6.87814998626709,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ossford population 2020 2025 census"
+        },
+        "result": "{\"error\": \"No match found for: 'Ossford population 2020 2025 census'\"}",
+        "duration": 0.001132965087890625
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Stonecairn population 2020 2025 census"
+        },
+        "result": "{\"error\": \"No match found for: 'Stonecairn population 2020 2025 census'\"}",
+        "duration": 0.00039076805114746094
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Coldharbour population 2020 2025 census"
+        },
+        "result": "{\"error\": \"No match found for: 'Coldharbour population 2020 2025 census'\"}",
+        "duration": 0.0004019737243652344
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ossford"
+        },
+        "result": "{\"id\": \"NR-02\", \"title\": \"Ossford district profile (2025)\", \"text\": \"Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge.\"}",
+        "duration": 0.0008530616760253906
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Stonecairn"
+        },
+        "result": "{\"id\": \"NR-06\", \"title\": \"Stonecairn district profile (2025)\", \"text\": \"Stonecairn lies on the Cairn Water and was founded in 1837. The 2025 census counted 14,926 residents, up from 15,473 at the 2020 census, on an area of 1,742.3 square kilometres. The district runs 9 schools with 2,017 pupils enrolled in the 2025/26 school year. Its 2025 budget was 2,884.6 million tenge, and it maintains 506.8 km of paved road. Households used 1,062 megalitres of water in 2025.\"}",
+        "duration": 0.00022912025451660156
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Coldharbour"
+        },
+        "result": "{\"id\": \"NR-12\", \"title\": \"Coldharbour district profile (2025)\", \"text\": \"Coldharbour lies on the Cold and was founded in 1845. The 2025 census counted 11,407 residents, up from 11,902 at the 2020 census, on an area of 2,318.0 square kilometres. The district runs 8 schools with 1,611 pupils enrolled in the 2025/26 school year. Its 2025 budget was 2,366.9 million tenge, and it maintains 598.3 km of paved road. Households used 804 megalitres of water in 2025.\"}",
+        "duration": 0.00023603439331054688
+      },
+      {
+        "round": 3,
+        "tool": "calculate",
+        "arguments": {
+          "expression": "(31560-30982)/31560*100"
+        },
+        "result": "{\"error\": \"module 'ast' has no attribute 'Num'\"}",
+        "duration": 0.00021600723266601562
+      },
+      {
+        "round": 3,
+        "tool": "calculate",
+        "arguments": {
+          "expression": "(15473-14926)/15473*100"
+        },
+        "result": "{\"error\": \"module 'ast' has no attribute 'Num'\"}",
+        "duration": 6.508827209472656e-05
+      },
+      {
+        "round": 3,
+        "tool": "calculate",
+        "arguments": {
+          "expression": "(11902-11407)/11902*100"
+        },
+        "result": "{\"error\": \"module 'ast' has no attribute 'Num'\"}",
+        "duration": 5.7697296142578125e-05
+      }
+    ]
+  }
+}

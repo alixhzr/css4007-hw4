@@ -1,0 +1,99 @@
+{
+  "question_id": "Q-18",
+  "question": "If Millbrook's population grows by the same percentage from 2025 to 2030 as it did from 2020 to 2025, will it exceed 40,000 residents in 2030? Give the projected 2030 population.",
+  "s1": {
+    "answer": "Millbrook’s population grew from 34,590 in 2020 to 37,203 in 2025, an increase of:\n\n\\[\n\\frac{37,203-34,590}{34,590}\\times100 \\approx 7.5542\\%\n\\]\n\nApplying the same percentage growth to 2030:\n\n\\[\n37,203 \\times \\frac{37,203}{34,590} \\approx 40,014\n\\]\n\nThis would exceed 40,000 residents.\n\nANSWER: yes | 40,014 residents",
+    "usage": {
+      "completion_tokens": 116,
+      "prompt_tokens": 2155,
+      "total_tokens": 2271,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2152,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 1.9069697856903076
+  },
+  "s2": {
+    "answers": [
+      "Millbrook’s population grew from 34,590 in 2020 to 37,203 in 2025.\n\n1. Growth factor: \\(37,203 \\div 34,590 \\approx 1.07525\\)\n2. Projected 2030 population: \\(37,203 \\times 1.07525 \\approx 40,002\\)\n\nSince 40,002 exceeds 40,000, the answer is yes.\n\nANSWER: yes | 40,002 residents",
+      "Millbrook’s population increased from 34,590 in 2020 to 37,203 in 2025.\n\n1. Increase: \\(37,203 - 34,590 = 2,613\\)\n2. Percentage growth: \\(2,613 \\div 34,590 \\approx 7.5536\\%\\)\n3. Projected 2030 population:  \n   \\(37,203 \\times (1 + 0.075536) \\approx 40,013.3\\)\n\nRounded to the nearest resident, the projected population is **40,013**, which exceeds 40,000.\n\nANSWER: yes | 40,013",
+      "Millbrook’s population increased from 34,590 in 2020 to 37,203 in 2025.\n\n1. Calculate the percentage growth from 2020 to 2025:  \n   \\[\n   \\frac{37,203-34,590}{34,590}=\\frac{2,613}{34,590}\\approx 7.553\\%\n   \\]\n\n2. Apply the same growth rate to the 2025 population:  \n   \\[\n   37,203 \\times 1.07553 \\approx 40,013\n   \\]\n\nThe projected 2030 population is approximately 40,013, which exceeds 40,000.\n\nANSWER: yes | 40,013 residents",
+      "Millbrook’s population increased from 34,590 in 2020 to 37,203 in 2025.\n\nPercentage growth:\n\n\\[\n\\frac{37,203-34,590}{34,590}\\times 100\n= 7.5536\\%\n\\]\n\nApplying the same growth rate from 2025 to 2030:\n\n\\[\n37,203 \\times \\frac{37,203}{34,590} \\approx 40,013.2\n\\]\n\nThe projected 2030 population is approximately **40,013 residents**, so it would exceed 40,000.\n\nANSWER: yes | 40,013",
+      "Millbrook’s population grew from 34,590 in 2020 to 37,203 in 2025.\n\n1. Growth factor from 2020 to 2025:  \n   \\(37,203 \\div 34,590 \\approx 1.07554\\)\n\n2. Projected 2030 population using the same percentage growth:  \n   \\(37,203 \\times 1.07554 \\approx 40,012\\)\n\nSince 40,012 exceeds 40,000, Millbrook would exceed 40,000 residents.\n\nANSWER: yes | 40,012 residents"
+    ],
+    "chosen": "Millbrook’s population increased from 34,590 in 2020 to 37,203 in 2025.\n\n1. Calculate the percentage growth from 2020 to 2025:  \n   \\[\n   \\frac{37,203-34,590}{34,590}=\\frac{2,613}{34,590}\\approx 7.553\\%\n   \\]\n\n2. Apply the same growth rate to the 2025 population:  \n   \\[\n   37,203 \\times 1.07553 \\approx 40,013\n   \\]\n\nThe projected 2030 population is approximately 40,013, which exceeds 40,000.\n\nANSWER: yes | 40,013 residents",
+    "usage": {
+      "prompt_tokens": 10800,
+      "completion_tokens": 655,
+      "total_tokens": 11455
+    },
+    "time": 10.132714986801147
+  },
+  "s3": {
+    "answer": "Millbrook grew from 34,590 residents in 2020 to 37,203 in 2025, an increase of about 7.55%. Applying the same growth rate:\n\n37,203 × (37,203 ÷ 34,590) ≈ 40,014 residents.\n\nYes, it would exceed 40,000 residents.\n\nANSWER: yes | 40,014",
+    "usage": {
+      "prompt_tokens": 2216,
+      "completion_tokens": 210,
+      "total_tokens": 2426
+    },
+    "time": 6.3863279819488525,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Millbrook population 2020 2025 district profile"
+        },
+        "result": "{\"error\": \"No match found for: 'Millbrook population 2020 2025 district profile'\"}",
+        "duration": 0.0010259151458740234
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Millbrook population 2025 residents"
+        },
+        "result": "{\"error\": \"No match found for: 'Millbrook population 2025 residents'\"}",
+        "duration": 0.0002892017364501953
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Millbrook"
+        },
+        "result": "{\"id\": \"NR-11\", \"title\": \"Millbrook district profile (2025)\", \"text\": \"Millbrook has 15 schools, which enrolled 5,562 pupils for the 2025/26 school year. The district, founded in 1897, stretches along the Mill Brook over 758.6 square kilometres and keeps 360.1 km of paved road. Census population: 34,590 in 2020 and 37,203 in 2025. Households used 2,806 megalitres of water during 2025, and the district's 2025 budget amounted to 6,305.7 million tenge.\"}",
+        "duration": 0.0007448196411132812
+      },
+      {
+        "round": 3,
+        "tool": "calculate",
+        "arguments": {
+          "expression": "37203*(37203/34590)"
+        },
+        "result": "{\"error\": \"module 'ast' has no attribute 'Num'\"}",
+        "duration": 0.00023412704467773438
+      },
+      {
+        "round": 4,
+        "tool": "calculate",
+        "arguments": {
+          "expression": "37203 * 37203 / 34590"
+        },
+        "result": "{\"error\": \"module 'ast' has no attribute 'Num'\"}",
+        "duration": 0.0002048015594482422
+      }
+    ]
+  }
+}

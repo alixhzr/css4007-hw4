@@ -1,0 +1,90 @@
+{
+  "question_id": "Q-20",
+  "question": "Of Ossbridge, Ashgrove and Harrowfield, which district had the largest 2025 budget per resident, and by how many tenge per resident did it exceed the lowest of the three?",
+  "s1": {
+    "answer": "Calculate budget per resident:\n\n- **Ossbridge:** 9,284.5 million ÷ 52,904 = **175,485.03 tenge/resident**\n- **Ashgrove:** 10,488.1 million ÷ 58,760 = **178,486.04 tenge/resident**\n- **Harrowfield:** 16,021.7 million ÷ 90,212 = **177,598.10 tenge/resident**\n\nAshgrove had the largest budget per resident. It exceeded Ossbridge, the lowest, by **3,001.01 tenge per resident**.\n\nANSWER: Ashgrove | 3,001.01 tenge per resident",
+    "usage": {
+      "completion_tokens": 148,
+      "prompt_tokens": 2145,
+      "total_tokens": 2293,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2142,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 2.2877190113067627
+  },
+  "s2": {
+    "answers": [
+      "Calculate budget per resident for each:\n\n- **Ossbridge:** 9,284.5 million ÷ 52,904 = **175,486.92 tenge per resident**\n- **Ashgrove:** 10,488.1 million ÷ 58,760 = **178,492.68 tenge per resident**\n- **Harrowfield:** 16,021.7 million ÷ 90,212 = **177,589.66 tenge per resident**\n\nAshgrove had the largest budget per resident. It exceeded Ossbridge, the lowest, by:\n\n178,492.68 − 175,486.92 = **3,005.76 tenge per resident**\n\nANSWER: Ashgrove | 3,005.76 tenge per resident",
+      "Using the 2025 budget and census population:\n\n- **Ossbridge:** 9,284.5 million ÷ 52,904 = **175,587.89 tenge per resident**\n- **Ashgrove:** 10,488.1 million ÷ 58,760 = **178,490.13 tenge per resident**\n- **Harrowfield:** 16,021.7 million ÷ 90,212 = **177,598.99 tenge per resident**\n\nAshgrove had the largest budget per resident. It exceeded Ossbridge, the lowest, by:\n\n**178,490.13 − 175,587.89 = 2,902.24 tenge per resident**\n\nANSWER: Ashgrove | 2,902.24 tenge per resident",
+      "Using the 2025 budget and population:\n\n- **Ossbridge:** 9,284.5 million ÷ 52,904 ≈ **175,490.32 tenge per resident**\n- **Ashgrove:** 10,488.1 million ÷ 58,760 ≈ **178,490.81 tenge per resident**\n- **Harrowfield:** 16,021.7 million ÷ 90,212 ≈ **177,581.47 tenge per resident**\n\nAshgrove had the largest budget per resident. It exceeded Ossbridge, the lowest, by:\n\n178,490.81 − 175,490.32 = **3,000.49 tenge per resident**\n\nANSWER: Ashgrove | 3,000.49 tenge per resident",
+      "Using the 2025 budget and population figures:\n\n- **Ossbridge:** 9,284.5 million ÷ 52,904 = **175,583.32 tenge per resident**\n- **Ashgrove:** 10,488.1 million ÷ 58,760 = **178,493.53 tenge per resident**\n- **Harrowfield:** 16,021.7 million ÷ 90,212 = **177,599.88 tenge per resident**\n\nAshgrove had the largest budget per resident. It exceeded Ossbridge, the lowest, by:\n\n**178,493.53 − 175,583.32 = 2,910.21 tenge per resident**\n\nANSWER: Ashgrove | 2,910.21 tenge per resident",
+      "Using the 2025 budgets and populations:\n\n- **Ossbridge:** 9,284.5 million ÷ 52,904 = **175,583.32 tenge per resident**\n- **Ashgrove:** 10,488.1 million ÷ 58,760 = **178,490.64 tenge per resident**\n- **Harrowfield:** 16,021.7 million ÷ 90,212 = **177,601.43 tenge per resident**\n\nAshgrove had the largest budget per resident. It exceeded Ossbridge, the lowest, by:\n\n**178,490.64 − 175,583.32 = 2,907.32 tenge per resident**\n\nANSWER: Ashgrove | 2,907.32 tenge per resident"
+    ],
+    "chosen": "Using the 2025 budget and population figures:\n\n- **Ossbridge:** 9,284.5 million ÷ 52,904 = **175,583.32 tenge per resident**\n- **Ashgrove:** 10,488.1 million ÷ 58,760 = **178,493.53 tenge per resident**\n- **Harrowfield:** 16,021.7 million ÷ 90,212 = **177,599.88 tenge per resident**\n\nAshgrove had the largest budget per resident. It exceeded Ossbridge, the lowest, by:\n\n**178,493.53 − 175,583.32 = 2,910.21 tenge per resident**\n\nANSWER: Ashgrove | 2,910.21 tenge per resident",
+    "usage": {
+      "prompt_tokens": 10750,
+      "completion_tokens": 831,
+      "total_tokens": 11581
+    },
+    "time": 11.908889770507812
+  },
+  "s3": {
+    "answer": "I couldn’t find the budget or population data for Ossbridge, Ashgrove, and Harrowfield, so I can’t calculate the comparison.\n\nANSWER: unavailable | unavailable",
+    "usage": {
+      "prompt_tokens": 1044,
+      "completion_tokens": 159,
+      "total_tokens": 1203
+    },
+    "time": 4.837465047836304,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ossbridge 2025 budget population residents district profile"
+        },
+        "result": "{\"error\": \"No match found for: 'Ossbridge 2025 budget population residents district profile'\"}",
+        "duration": 0.0014262199401855469
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ashgrove 2025 budget population residents district profile"
+        },
+        "result": "{\"error\": \"No match found for: 'Ashgrove 2025 budget population residents district profile'\"}",
+        "duration": 0.0002980232238769531
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Harrowfield 2025 budget population residents district profile"
+        },
+        "result": "{\"error\": \"No match found for: 'Harrowfield 2025 budget population residents district profile'\"}",
+        "duration": 0.0002009868621826172
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ossbridge Ashgrove Harrowfield district budget 2025 tenge per resident"
+        },
+        "result": "{\"error\": \"No match found for: 'Ossbridge Ashgrove Harrowfield district budget 2025 tenge per resident'\"}",
+        "duration": 0.0004019737243652344
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "question_id": "Q-17",
+  "question": "At the 2025 household water tariff, which district's households paid more for water per resident in 2025, Harrowfield or Ossbridge, and by how many tenge per resident?",
+  "s1": {
+    "answer": "Harrowfield households paid more per resident.\n\n- Harrowfield: \\(7{,}146{,}000\\text{ m}^3 \\times 142.35 \\div 90{,}212 = 11{,}279.77\\) tenge per resident\n- Ossbridge: \\(3{,}862{,}000\\text{ m}^3 \\times 142.35 \\div 52{,}904 = 10{,}390.45\\) tenge per resident\n\nDifference: \\(11{,}279.77 - 10{,}390.45 = 889.32\\) tenge per resident.\n\nANSWER: Harrowfield | 889.32 tenge per resident",
+    "usage": {
+      "completion_tokens": 160,
+      "prompt_tokens": 2144,
+      "total_tokens": 2304,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2141,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 2.138606071472168
+  },
+  "s2": {
+    "answers": [
+      "Harrowfield households used 7,146 megalitres:\n\n- 7,146 ML = 7,146,000 cubic metres\n- Cost = 7,146,000 × 142.35 = 1,017,? Wait, per-resident comparison can use water volume directly because the tariff is the same.\n\nHarrowfield water use per resident:\n\n\\[\n\\frac{7,146,000 \\times 142.35}{90,212} \\approx 11,280.57 \\text{ tenge}\n\\]\n\nOssbridge households used 3,862 megalitres:\n\n\\[\n\\frac{3,862,000 \\times 142.35}{52,904} \\approx 10,391.87 \\text{ tenge}\n\\]\n\nDifference:\n\n\\[\n11,280.57 - 10,391.87 = 888.70\n\\]\n\nTherefore, Harrowfield households paid approximately 888.70 tenge more per resident.\n\nANSWER: Harrowfield | 888.70 tenge per resident",
+      "Harrowfield households used 7,146 megalitres:\n\n- 7,146 ML = 7,146,000 cubic metres\n- Cost = 7,146,000 × 142.35 = 1,017,743,100 tenge\n- Per resident = 1,017,743,100 ÷ 90,212 ≈ 11,282.22 tenge\n\nOssbridge households used 3,862 megalitres:\n\n- 3,862 ML = 3,862,000 cubic metres\n- Cost = 3,862,000 × 142.35 = 549,761,700 tenge\n- Per resident = 549,761,700 ÷ 52,904 ≈ 10,391.90 tenge\n\nDifference: 11,282.22 − 10,391.90 ≈ 890.32 tenge per resident.\n\nANSWER: Harrowfield | 890.32 tenge per resident",
+      "Harrowfield households used 7,146 megalitres, or 7,146,000 cubic metres. At 142.35 tenge per cubic metre, that is 1,017,? Wait:\n\n- Harrowfield total cost: 7,146,000 × 142.35 = 1,017,?  \n  \\(142.35 \\times 7,146,000 = 1,017,? \\) Actually, using megalitres: \\(7,146,000 \\times 142.35 = 1,017,? \\)  \n  \\(142.35 \\times 7,146 = 1,017,? \\) thousand tenge = 1,017,? million tenge.\n\nMore directly, cost per resident is:\n\\[\n\\frac{7,146,000 \\times 142.35}{90,212}\n\\approx 11,279.08\n\\]\ntenge.\n\nOssbridge households used 3,862,000 cubic metres:\n\\[\n\\frac{3,862,000 \\times 142.35}{52,904}\n\\approx 10,391.10\n\\]\ntenge per resident.\n\nDifference:\n\\[\n11,279.08 - 10,391.10 = 887.98\n\\]\n\nANSWER: Harrowfield | 887.98 tenge per resident",
+      "Harrowfield household water use per resident:\n\n- 7,146 ML = 7,146,000 m³\n- 7,146,000 ÷ 90,212 = approximately 79.215 m³ per resident\n- 79.215 × 142.35 = approximately 11,272.24 tenge per resident\n\nOssbridge household water use per resident:\n\n- 3,862 ML = 3,862,000 m³\n- 3,862,000 ÷ 52,904 = approximately 72.997 m³ per resident\n- 72.997 × 142.35 = approximately 10,391.64 tenge per resident\n\nDifference:\n\n- 11,272.24 − 10,391.64 = approximately 880.60 tenge per resident\n\nANSWER: Harrowfield | 880.60 tenge per resident",
+      "Harrowfield household water use per resident:\n\n- 7,146 megalitres = 7,146,000 cubic metres\n- 7,146,000 ÷ 90,212 = 79.2179 cubic metres per resident\n- 79.2179 × 142.35 = 11,275.16 tenge per resident\n\nOssbridge household water use per resident:\n\n- 3,862 megalitres = 3,862,000 cubic metres\n- 3,862,000 ÷ 52,904 = 72.9983 cubic metres per resident\n- 72.9983 × 142.35 = 10,390.31 tenge per resident\n\nDifference:\n\n- 11,275.16 − 10,390.31 = **884.85 tenge per resident**\n\nANSWER: Harrowfield | 884.85 tenge per resident"
+    ],
+    "chosen": "Harrowfield households used 7,146 megalitres:\n\n- 7,146 ML = 7,146,000 cubic metres\n- Cost = 7,146,000 × 142.35 = 1,017,? Wait, per-resident comparison can use water volume directly because the tariff is the same.\n\nHarrowfield water use per resident:\n\n\\[\n\\frac{7,146,000 \\times 142.35}{90,212} \\approx 11,280.57 \\text{ tenge}\n\\]\n\nOssbridge households used 3,862 megalitres:\n\n\\[\n\\frac{3,862,000 \\times 142.35}{52,904} \\approx 10,391.87 \\text{ tenge}\n\\]\n\nDifference:\n\n\\[\n11,280.57 - 10,391.87 = 888.70\n\\]\n\nTherefore, Harrowfield households paid approximately 888.70 tenge more per resident.\n\nANSWER: Harrowfield | 888.70 tenge per resident",
+    "usage": {
+      "prompt_tokens": 10745,
+      "completion_tokens": 1106,
+      "total_tokens": 11851
+    },
+    "time": 15.093808889389038
+  },
+  "s3": {
+    "answer": "I couldn’t find the data needed to compare Harrowfield and Ossbridge.\n\nANSWER: unavailable | unavailable",
+    "usage": {
+      "prompt_tokens": 963,
+      "completion_tokens": 120,
+      "total_tokens": 1083
+    },
+    "time": 4.273329973220825,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "2025 household water tariff Harrowfield district household water use residents 2025"
+        },
+        "result": "{\"error\": \"No match found for: '2025 household water tariff Harrowfield district household water use residents 2025'\"}",
+        "duration": 0.0006582736968994141
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "2025 household water tariff Ossbridge district household water use residents 2025"
+        },
+        "result": "{\"error\": \"No match found for: '2025 household water tariff Ossbridge district household water use residents 2025'\"}",
+        "duration": 0.00042700767517089844
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Harrowfield Ossbridge water tariff"
+        },
+        "result": "{\"error\": \"No match found for: 'Harrowfield Ossbridge water tariff'\"}",
+        "duration": 0.0004730224609375
+      }
+    ]
+  }
+}

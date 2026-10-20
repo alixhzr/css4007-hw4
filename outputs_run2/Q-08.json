@@ -1,0 +1,99 @@
+{
+  "question_id": "Q-08",
+  "question": "At the 2025 household water tariff, whose households paid more for water in 2025, Brightwater's or Millbrook's, and by how many million tenge?",
+  "s1": {
+    "answer": "Brightwater’s households paid more.\n\n- Brightwater: 3,315 ML × 1,000 m³/ML × 142.35 tenge/m³ = 471.89025 million tenge\n- Millbrook: 2,806 ML × 1,000 m³/ML × 142.35 tenge/m³ = 399.43410 million tenge\n- Difference: 72.45615 million tenge\n\nANSWER: Brightwater | 72.45615 million tenge",
+    "usage": {
+      "completion_tokens": 109,
+      "prompt_tokens": 2140,
+      "total_tokens": 2249,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2137,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 2.0107710361480713
+  },
+  "s2": {
+    "answers": [
+      "Brightwater’s households used 3,315 megalitres, while Millbrook’s used 2,806 megalitres.\n\nDifference in use:\n\n3,315 − 2,806 = 509 megalitres = 509,000 cubic metres\n\nAt 142.35 tenge per cubic metre:\n\n509,000 × 142.35 = 72,456,150 tenge = 72.45615 million tenge\n\nTherefore, Brightwater’s households paid more by approximately 72.46 million tenge.\n\nANSWER: Brightwater | 72.46 million tenge",
+      "Brightwater’s households used 3,315 megalitres, while Millbrook’s used 2,806 megalitres.\n\nDifference in use:\n\n3,315 − 2,806 = 509 megalitres = 509,000 cubic metres\n\nAt 142.35 tenge per cubic metre:\n\n509,000 × 142.35 = 72,255,150 tenge = 72.25515 million tenge\n\nTherefore, Brightwater’s households paid more by approximately 72.255 million tenge.\n\nANSWER: Brightwater | 72.25515 million tenge",
+      "Brightwater’s households used 3,315 megalitres, while Millbrook’s used 2,806 megalitres.\n\nDifference in use:\n\n3,315 − 2,806 = 509 megalitres\n\nSince 1 megalitre = 1,000 cubic metres, the difference was 509,000 cubic metres. At 142.35 tenge per cubic metre:\n\n509,000 × 142.35 = 72,456,150 tenge = 72.45615 million tenge\n\nTherefore, Brightwater’s households paid more.\n\nANSWER: Brightwater | 72.45615 million tenge",
+      "Brightwater’s households used 3,315 megalitres, while Millbrook’s used 2,806 megalitres.\n\nDifference in use:\n\n3,315 − 2,806 = 509 megalitres = 509,000 cubic metres\n\nAt 142.35 tenge per cubic metre:\n\n509,000 × 142.35 = 72,455,?  \nActually, \\(509 \\times 1{,}000 \\times 142.35 = 72{,}455{,}? \\)\n\n\\(142.35 \\times 509{,}000 = 72{,}455{,}? \\)  \n\\(142.35 \\times 509 = 72{,}455. ?\\)  \n\\(142.35 \\times 500 = 71{,}175\\)  \n\\(142.35 \\times 9 = 1{,}281.15\\)  \nTotal = 72,456.15 thousand tenge = 72.45615 million tenge.\n\nThus, Brightwater’s households paid more by approximately 72.46 million tenge.\n\nANSWER: Brightwater | 72.45615 million tenge",
+      "Brightwater’s households used 3,315 megalitres, while Millbrook’s used 2,806 megalitres.\n\nDifference in use:\n\n3,315 − 2,806 = 509 megalitres = 509,000 cubic metres\n\nAt 142.35 tenge per cubic metre:\n\n509,000 × 142.35 = 72,456,150 tenge\n\nThat is 72.45615 million tenge, so Brightwater’s households paid more.\n\nANSWER: Brightwater | 72.45615 million tenge"
+    ],
+    "chosen": "Brightwater’s households used 3,315 megalitres, while Millbrook’s used 2,806 megalitres.\n\nDifference in use:\n\n3,315 − 2,806 = 509 megalitres = 509,000 cubic metres\n\nAt 142.35 tenge per cubic metre:\n\n509,000 × 142.35 = 72,455,?  \nActually, \\(509 \\times 1{,}000 \\times 142.35 = 72{,}455{,}? \\)\n\n\\(142.35 \\times 509{,}000 = 72{,}455{,}? \\)  \n\\(142.35 \\times 509 = 72{,}455. ?\\)  \n\\(142.35 \\times 500 = 71{,}175\\)  \n\\(142.35 \\times 9 = 1{,}281.15\\)  \nTotal = 72,456.15 thousand tenge = 72.45615 million tenge.\n\nThus, Brightwater’s households paid more by approximately 72.46 million tenge.\n\nANSWER: Brightwater | 72.45615 million tenge",
+    "usage": {
+      "prompt_tokens": 10725,
+      "completion_tokens": 759,
+      "total_tokens": 11484
+    },
+    "time": 10.295869827270508
+  },
+  "s3": {
+    "answer": "I couldn’t find the data needed to compare Brightwater and Millbrook’s 2025 household water payments.\n\nANSWER: unavailable | unavailable",
+    "usage": {
+      "prompt_tokens": 1028,
+      "completion_tokens": 175,
+      "total_tokens": 1203
+    },
+    "time": 4.4008378982543945,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Brightwater 2025 household water tariff households number water consumption profile"
+        },
+        "result": "{\"error\": \"No match found for: 'Brightwater 2025 household water tariff households number water consumption profile'\"}",
+        "duration": 0.0011088848114013672
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Millbrook 2025 household water tariff households number water consumption profile"
+        },
+        "result": "{\"error\": \"No match found for: 'Millbrook 2025 household water tariff households number water consumption profile'\"}",
+        "duration": 0.0003986358642578125
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Brightwater district profile water tariff"
+        },
+        "result": "{\"error\": \"No match found for: 'Brightwater district profile water tariff'\"}",
+        "duration": 0.0008149147033691406
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Millbrook district profile water tariff"
+        },
+        "result": "{\"error\": \"No match found for: 'Millbrook district profile water tariff'\"}",
+        "duration": 0.0002880096435546875
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "2025 household water tariff Brightwater Millbrook"
+        },
+        "result": "{\"error\": \"No match found for: '2025 household water tariff Brightwater Millbrook'\"}",
+        "duration": 0.00027680397033691406
+      }
+    ]
+  }
+}

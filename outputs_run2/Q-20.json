@@ -1,0 +1,90 @@
+{
+  "question_id": "Q-20",
+  "question": "Of Ossbridge, Ashgrove and Harrowfield, which district had the largest 2025 budget per resident, and by how many tenge per resident did it exceed the lowest of the three?",
+  "s1": {
+    "answer": "Using the 2025 budgets and populations:\n\n- Ossbridge: 9,284.5 million ÷ 52,904 = **175,585.63 tenge/resident**\n- Ashgrove: 10,488.1 million ÷ 58,760 = **178,491.15 tenge/resident**\n- Harrowfield: 16,021.7 million ÷ 90,212 = **177,584.59 tenge/resident**\n\nAshgrove had the largest budget per resident. It exceeded Ossbridge, the lowest, by **2,905.52 tenge per resident**.\n\nANSWER: Ashgrove | 2,905.52 tenge per resident",
+    "usage": {
+      "completion_tokens": 148,
+      "prompt_tokens": 2145,
+      "total_tokens": 2293,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2142,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    },
+    "time": 2.394299030303955
+  },
+  "s2": {
+    "answers": [
+      "Using the 2025 budget and population:\n\n- **Ossbridge:** 9,284.5 million ÷ 52,904 = **175,581.43 tenge per resident**\n- **Ashgrove:** 10,488.1 million ÷ 58,760 = **178,490.13 tenge per resident**\n- **Harrowfield:** 16,021.7 million ÷ 90,212 = **177,592.33 tenge per resident**\n\nAshgrove had the largest budget per resident. It exceeded Ossbridge, the lowest, by:\n\n**178,490.13 − 175,581.43 = 2,908.70 tenge per resident**\n\nANSWER: Ashgrove | 2,908.70 tenge per resident",
+      "Calculate each district’s 2025 budget per resident:\n\n- **Ossbridge:** 9,284.5 million ÷ 52,904 = **175,487.45 tenge per resident**\n- **Ashgrove:** 10,488.1 million ÷ 58,760 = **178,489.11 tenge per resident**\n- **Harrowfield:** 16,021.7 million ÷ 90,212 = **177,602.98 tenge per resident**\n\nAshgrove had the largest budget per resident. It exceeded Ossbridge, the lowest, by:\n\n178,489.11 − 175,487.45 = **3,001.66 tenge per resident**\n\nANSWER: Ashgrove | 3,001.66 tenge per resident",
+      "Calculate each district’s 2025 budget per resident:\n\n- **Ossbridge:** 9,284.5 million ÷ 52,904 ≈ **175,491.26 tenge per resident**\n- **Ashgrove:** 10,488.1 million ÷ 58,760 ≈ **178,499.15 tenge per resident**\n- **Harrowfield:** 16,021.7 million ÷ 90,212 ≈ **177,593.22 tenge per resident**\n\nAshgrove had the largest budget per resident. The difference between Ashgrove and the lowest, Ossbridge, was:\n\n178,499.15 − 175,491.26 = **3,007.89 tenge per resident**\n\nANSWER: Ashgrove | 3,007.89 tenge per resident",
+      "Using the 2025 budget and 2025 census population:\n\n- **Ossbridge:** 9,284.5 million ÷ 52,904 = **175,485.20 tenge per resident**\n- **Ashgrove:** 10,488.1 million ÷ 58,760 = **178,488.77 tenge per resident**\n- **Harrowfield:** 16,021.7 million ÷ 90,212 = **177,593.89 tenge per resident**\n\nAshgrove had the largest budget per resident. It exceeded Ossbridge, the lowest, by:\n\n**178,488.77 − 175,485.20 = 3,003.57 tenge per resident**\n\nANSWER: Ashgrove | 3,003.57 tenge per resident",
+      "Using the 2025 budget and population:\n\n- **Ossbridge:** 9,284.5 million ÷ 52,904 = **175,584.46 tenge per resident**\n- **Ashgrove:** 10,488.1 million ÷ 58,760 = **178,492.17 tenge per resident**\n- **Harrowfield:** 16,021.7 million ÷ 90,212 = **177,603.42 tenge per resident**\n\nAshgrove had the largest budget per resident. It exceeded Ossbridge, the lowest, by:\n\n178,492.17 − 175,584.46 = **2,907.71 tenge per resident**\n\nANSWER: Ashgrove | 2,907.71 tenge per resident"
+    ],
+    "chosen": "Calculate each district’s 2025 budget per resident:\n\n- **Ossbridge:** 9,284.5 million ÷ 52,904 ≈ **175,491.26 tenge per resident**\n- **Ashgrove:** 10,488.1 million ÷ 58,760 ≈ **178,499.15 tenge per resident**\n- **Harrowfield:** 16,021.7 million ÷ 90,212 ≈ **177,593.22 tenge per resident**\n\nAshgrove had the largest budget per resident. The difference between Ashgrove and the lowest, Ossbridge, was:\n\n178,499.15 − 175,491.26 = **3,007.89 tenge per resident**\n\nANSWER: Ashgrove | 3,007.89 tenge per resident",
+    "usage": {
+      "prompt_tokens": 10750,
+      "completion_tokens": 843,
+      "total_tokens": 11593
+    },
+    "time": 11.863462209701538
+  },
+  "s3": {
+    "answer": "I couldn’t find reliable 2025 budget or population data for Ossbridge, Ashgrove, and Harrowfield, so I can’t determine the per-resident comparison.\n\nANSWER: unavailable | unavailable",
+    "usage": {
+      "prompt_tokens": 1042,
+      "completion_tokens": 161,
+      "total_tokens": 1203
+    },
+    "time": 4.1683337688446045,
+    "steps": [
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ossbridge 2025 budget population residents budget per resident"
+        },
+        "result": "{\"error\": \"No match found for: 'Ossbridge 2025 budget population residents budget per resident'\"}",
+        "duration": 0.0008361339569091797
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ashgrove 2025 budget population residents budget per resident"
+        },
+        "result": "{\"error\": \"No match found for: 'Ashgrove 2025 budget population residents budget per resident'\"}",
+        "duration": 0.0002980232238769531
+      },
+      {
+        "round": 1,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Harrowfield 2025 budget population residents budget per resident"
+        },
+        "result": "{\"error\": \"No match found for: 'Harrowfield 2025 budget population residents budget per resident'\"}",
+        "duration": 0.00026607513427734375
+      },
+      {
+        "round": 2,
+        "tool": "lookup",
+        "arguments": {
+          "query": "Ossbridge Ashgrove Harrowfield district profiles"
+        },
+        "result": "{\"error\": \"No match found for: 'Ossbridge Ashgrove Harrowfield district profiles'\"}",
+        "duration": 0.0009119510650634766
+      }
+    ]
+  }
+}
